@@ -1,0 +1,12 @@
+C:\Proj\BlazorCCPro\BlazorCCPro\Shared\bin\Debug\net6.0\BlazorCCPro.Shared.deps.json
+C:\Proj\BlazorCCPro\BlazorCCPro\Shared\bin\Debug\net6.0\BlazorCCPro.Shared.dll
+C:\Proj\BlazorCCPro\BlazorCCPro\Shared\bin\Debug\net6.0\BlazorCCPro.Shared.pdb
+C:\Proj\BlazorCCPro\BlazorCCPro\Shared\obj\Debug\net6.0\BlazorCCPro.Shared.csproj.AssemblyReference.cache
+C:\Proj\BlazorCCPro\BlazorCCPro\Shared\obj\Debug\net6.0\BlazorCCPro.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Proj\BlazorCCPro\BlazorCCPro\Shared\obj\Debug\net6.0\BlazorCCPro.Shared.AssemblyInfoInputs.cache
+C:\Proj\BlazorCCPro\BlazorCCPro\Shared\obj\Debug\net6.0\BlazorCCPro.Shared.AssemblyInfo.cs
+C:\Proj\BlazorCCPro\BlazorCCPro\Shared\obj\Debug\net6.0\BlazorCCPro.Shared.csproj.CoreCompileInputs.cache
+C:\Proj\BlazorCCPro\BlazorCCPro\Shared\obj\Debug\net6.0\BlazorCCPro.Shared.dll
+C:\Proj\BlazorCCPro\BlazorCCPro\Shared\obj\Debug\net6.0\refint\BlazorCCPro.Shared.dll
+C:\Proj\BlazorCCPro\BlazorCCPro\Shared\obj\Debug\net6.0\BlazorCCPro.Shared.pdb
+C:\Proj\BlazorCCPro\BlazorCCPro\Shared\obj\Debug\net6.0\ref\BlazorCCPro.Shared.dll

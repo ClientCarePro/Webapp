@@ -1,0 +1,38 @@
+﻿@using BlazorCCPro.Shared
+@inject HttpClient Http
+
+<h3>ClientenOverzicht</h3>
+<ul class="list-unstyled">
+	@foreach (var clienten in clientens)
+	{
+		<li class="media my-3">
+			<div class="media-img-wrapper mr-2">
+			
+			</div>
+			<div class="media-body">
+				<a href="#">
+					<img class="media-img" scr="/client-img/InlogLogo.png" alt="profielfoto" />
+					<h10 class="mb-0">@clienten.Voornaam @clienten.Achternaam</h10>
+				</a>
+				<p>@clienten.Geboortedatum</p>
+				<h12 class="DossierGegevens">
+				<p>@clienten.Woonplaats</P> 
+				<p>Begeleid wonen: @clienten.Begeleidwonen</p>
+				<p>Ambulante begeleiding: @clienten.AmbulanteBegeleiding</p>
+				<p>Geindiceerde ZZP-range: @clienten.GeindiceerdeZZPRange</p>
+				<p>Aanmelddatum: @clienten.Aanmelddatum</p>
+				<p>Afmelddatum: @clienten.Afmelddatum</p>
+				<p>Aantal MIC meldingen: @clienten.AantalRapportages</p>
+
+				</h12>
+			</div>
+		</li>
+	}
+</ul>
+@code {
+	
+
+}
+
+
+
