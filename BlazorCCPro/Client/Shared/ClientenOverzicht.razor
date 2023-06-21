@@ -1,8 +1,89 @@
 ﻿@using BlazorCCPro.Shared
 @inject HttpClient Http
 
-<h3>ClientenOverzicht</h3>
-<ul class="list-unstyled">
+<h3 class="test">lalala</h3>
+
+<body>
+
+  <div class="clientOverzicht_container">
+
+  <button class="button_clientToevoegen">Client toevoegen</button>
+
+  <div class="clientOverzicht_card"
+    <img src="/ClientenOverzicht-img/profile-icon.png"  alt="Profile image"/>
+    <div class="clientOverzicht_card_content">
+    <h2>Klaasje van Bommell</h2>
+    <p>20-04-1999</p>
+    <p>Badhoevendorp</p> 
+    <p>Begeleid wonen: TRUE</p>
+    <p>Ambulante begeleiding: FALSE</p>
+    <p>Geindiceerde ZZP-range: ZZP1</p>
+    <p>Aanmelddatum: 01-06-2023</p>
+    <p>Afmelddatum:</p>
+    <p>Aantal MIC meldingen: 1</p>
+  </div>
+  </div>
+
+  <br>
+
+  <div class="clientOverzicht_card">
+   <img src="/ClientenOverzicht-img/profile-icon.png"  alt="Profile image"/>
+    <div class="clientOverzicht_card_content">
+      <h2>Klaasje van Bommell</h2>
+      <p>20-04-1999</p>
+      <p>Badhoevendorp</p>
+      <p>Begeleid wonen: TRUE</p>
+      <p>Ambulante begeleiding: FALSE</p>
+      <p>Geindiceerde ZZP-range: ZZP1</p>
+      <p>Aanmelddatum: 01-06-2023</p>
+      <p>Afmelddatum:</p>
+      <p>Aantal MIC meldingen: 1</p>
+    </div>
+</div>
+
+<br>
+
+<div class="clientOverzicht_card">
+   <img src="/ClientenOverzicht-img/profile-icon.png"  alt="Profile image"/>
+  <div class="clientOverzicht_card_content">
+    <h2>Klaasje van Bommeli</h2>
+    <p>20-04-1999 </p>
+    <p>Badhoevendorp</p>
+    <p>Begeleid wonen: TRUE</p>
+    <p>Ambulante begeleiding: FALSE</p>
+    <p>Geindiceerde ZZP-range: ZZP1</p>
+    <p>Aanmelddatum: 01-06-2023</p>
+    <p>Afmelddatum:</p>
+    <p>Aantal MIC meldingen: 1</p>
+  </div>
+</div>
+
+<br>
+
+<div class="clientOverzicht_card">
+   <img src="/ClientenOverzicht-img/profile-icon.png"  alt="Profile image"/>
+  <div class="clientOverzicht_card_content">
+    <h2>Klaasje van Bommell</h2>
+    <p>20-04-1999</p>
+    <p>Badhoevendorp</p>
+    <p>Begeleid wonen: TRUE</p>
+    <p>Ambulante begeleiding: FALSE</p>
+    <p>Geindiceerde ZZP-range: ZZP1</p>
+    <p>Aanmelddatum: 01-06-2023</p>
+    <p>Afmelddatum:</p>
+    <p>Aantal MIC meldingen: 1</p>
+  </div>
+</div>
+
+</div>
+
+<br>
+</body>  
+
+
+
+
+@*<ul class="list-unstyled">
 	@foreach (var clienten in clientens)
 	{
 		<li class="media my-3">
@@ -28,7 +109,7 @@
 			</div>
 		</li>
 	}
-</ul>
+</ul>*@
 @code {
 	
 

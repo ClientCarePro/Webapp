@@ -4,6 +4,15 @@ body[b-c297i7ee6f] {
     background: white;
 }
 
+.container[b-c297i7ee6f] {
+    padding-bottom: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-style: solid;
+    border-color: #7ec6ec;
+    border-radius: 15px;
+}
+
 .parent[b-c297i7ee6f] {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -37,7 +46,7 @@ body[b-c297i7ee6f] {
 }
 
 h2[b-c297i7ee6f] {
-    margin: 50px 100px;
+    margin: 20px 100px;
     text-align: center;
     color: #7ec6ec;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -118,6 +127,79 @@ h2[b-c297i7ee6f] {
         opacity: .7;
     }
 /* /Shared/ClientenOverzicht.razor.rz.scp.css */
+.test[b-1aaqcxse2m] {
+    color:purple;
+}
+
+body[b-1aaqcxse2m] {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-family: "Open Sans", "Helvetica", "sans-serif";
+}
+
+
+.clientOverzicht_container[b-1aaqcxse2m] {
+    margin-top: 80px;
+    margin-right: 80px;
+    height: 800px;
+    width: 500px;
+}
+
+.button_clientToevoegen[b-1aaqcxse2m] {
+    width: 35%;
+    height: 35px;
+    margin-bottom: 20px;
+    margin-left: 325px;
+    background-color: #7ec6ec;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.clientOverzicht_card[b-1aaqcxse2m] {
+    overflow: hidden;
+    white-space: nowrap;
+    background: #f4fbff;
+    padding: 8px 20px;
+    border-style: solid;
+    border-color: #7ec6ec;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+    .clientOverzicht_card img[b-1aaqcxse2m] {
+        height: 60px;
+        width: 60px;
+    }
+
+    .clientOverzicht_card .clientOverzicht_card_content[b-1aaqcxse2m] {
+        flex-grow: 1;
+        padding: 10px 30px;
+    }
+
+    .clientOverzicht_card h2[b-1aaqcxse2m] {
+        font-size: 14px;
+        margin: 0;
+        line-height: 1.4;
+    }
+
+    .clientOverzicht_card p[b-1aaqcxse2m] {
+        font-size: 12px;
+        margin: 0;
+        line-height: 1.4;
+    }
+
+
+
 .media-img[b-1aaqcxse2m]{
     max-height: 200px;
     max-width: 200px;
@@ -127,7 +209,7 @@ h2[b-c297i7ee6f] {
 }
 
 .media-img:hover[b-1aaqcxse2m]{
-    transform: scale(1.1);
+    transform: scale(10.1);
 
  }
 
@@ -241,7 +323,7 @@ main[b-p4yqdclwia] {
 }
 /* /Shared/NavMenu.razor.rz.scp.css */
 .navbar-toggler[b-jhq99vubdu] {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: #4098c7;
 }
 
 .top-row[b-jhq99vubdu] {

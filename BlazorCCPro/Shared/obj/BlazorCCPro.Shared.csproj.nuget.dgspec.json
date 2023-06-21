@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Proj\\BlazorCCPro\\BlazorCCPro\\Shared\\BlazorCCPro.Shared.csproj": {}
+    "C:\\Projects\\CCPro Webapp\\Webapp\\BlazorCCPro\\Shared\\BlazorCCPro.Shared.csproj": {}
   },
   "projects": {
-    "C:\\Proj\\BlazorCCPro\\BlazorCCPro\\Shared\\BlazorCCPro.Shared.csproj": {
+    "C:\\Projects\\CCPro Webapp\\Webapp\\BlazorCCPro\\Shared\\BlazorCCPro.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Proj\\BlazorCCPro\\BlazorCCPro\\Shared\\BlazorCCPro.Shared.csproj",
+        "projectUniqueName": "C:\\Projects\\CCPro Webapp\\Webapp\\BlazorCCPro\\Shared\\BlazorCCPro.Shared.csproj",
         "projectName": "BlazorCCPro.Shared",
-        "projectPath": "C:\\Proj\\BlazorCCPro\\BlazorCCPro\\Shared\\BlazorCCPro.Shared.csproj",
-        "packagesPath": "C:\\Users\\Dave\\.nuget\\packages\\",
-        "outputPath": "C:\\Proj\\BlazorCCPro\\BlazorCCPro\\Shared\\obj\\",
+        "projectPath": "C:\\Projects\\CCPro Webapp\\Webapp\\BlazorCCPro\\Shared\\BlazorCCPro.Shared.csproj",
+        "packagesPath": "C:\\Users\\gnata\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\CCPro Webapp\\Webapp\\BlazorCCPro\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Dave\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\gnata\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -58,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

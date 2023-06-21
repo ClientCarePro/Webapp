@@ -3,6 +3,15 @@ body[b-c297i7ee6f] {
     background: white;
 }
 
+.container[b-c297i7ee6f] {
+    padding-bottom: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-style: solid;
+    border-color: #7ec6ec;
+    border-radius: 15px;
+}
+
 .parent[b-c297i7ee6f] {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -36,7 +45,7 @@ body[b-c297i7ee6f] {
 }
 
 h2[b-c297i7ee6f] {
-    margin: 50px 100px;
+    margin: 20px 100px;
     text-align: center;
     color: #7ec6ec;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;

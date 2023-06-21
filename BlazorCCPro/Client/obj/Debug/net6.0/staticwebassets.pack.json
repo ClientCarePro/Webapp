@@ -1,107 +1,103 @@
 {
   "Files": [
     {
-      "Id": "C:\\Proj\\BlazorCCPro\\BlazorCCPro\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "Id": "C:\\Projects\\CCPro Webapp\\Webapp\\BlazorCCPro\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\blazor.webassembly.js",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
     },
     {
-      "Id": "C:\\Proj\\BlazorCCPro\\BlazorCCPro\\Client\\obj\\Debug\\net6.0\\build-gz\\BFWWEY6i.gz",
+      "Id": "C:\\Projects\\CCPro Webapp\\Webapp\\BlazorCCPro\\Client\\obj\\Debug\\net6.0\\build-gz\\e3CtQaOb.gz",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
     },
     {
-      "Id": "C:\\Proj\\BlazorCCPro\\BlazorCCPro\\Client\\obj\\Debug\\net6.0\\scopedcss\\bundle\\BlazorCCPro.Client.styles.css",
+      "Id": "C:\\Projects\\CCPro Webapp\\Webapp\\BlazorCCPro\\Client\\obj\\Debug\\net6.0\\scopedcss\\bundle\\BlazorCCPro.Client.styles.css",
       "PackagePath": "staticwebassets\\BlazorCCPro.Client.styles.css"
     },
     {
-      "Id": "C:\\Proj\\BlazorCCPro\\BlazorCCPro\\Client\\wwwroot\\client-img\\InlogLogo.png",
+      "Id": "C:\\Projects\\CCPro Webapp\\Webapp\\BlazorCCPro\\Client\\wwwroot\\ClientenOverzicht-img\\profile-icon.png",
+      "PackagePath": "staticwebassets\\ClientenOverzicht-img\\profile-icon.png"
+    },
+    {
+      "Id": "C:\\Projects\\CCPro Webapp\\Webapp\\BlazorCCPro\\Client\\wwwroot\\client-img\\InlogLogo.png",
       "PackagePath": "staticwebassets\\client-img\\InlogLogo.png"
     },
     {
-      "Id": "C:\\Proj\\BlazorCCPro\\BlazorCCPro\\Client\\wwwroot\\css\\app.css",
+      "Id": "C:\\Projects\\CCPro Webapp\\Webapp\\BlazorCCPro\\Client\\wwwroot\\css\\app.css",
       "PackagePath": "staticwebassets\\css\\app.css"
     },
     {
-      "Id": "C:\\Proj\\BlazorCCPro\\BlazorCCPro\\Client\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Id": "C:\\Projects\\CCPro Webapp\\Webapp\\BlazorCCPro\\Client\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Proj\\BlazorCCPro\\BlazorCCPro\\Client\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Id": "C:\\Projects\\CCPro Webapp\\Webapp\\BlazorCCPro\\Client\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Proj\\BlazorCCPro\\BlazorCCPro\\Client\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
-      "PackagePath": "staticwebassets\\css\\open-iconic"
-    },
-    {
-      "Id": "C:\\Proj\\BlazorCCPro\\BlazorCCPro\\Client\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
-      "PackagePath": "staticwebassets\\css\\open-iconic"
-    },
-    {
-      "Id": "C:\\Proj\\BlazorCCPro\\BlazorCCPro\\Client\\wwwroot\\css\\open-iconic\\README.md",
+      "Id": "C:\\Projects\\CCPro Webapp\\Webapp\\BlazorCCPro\\Client\\wwwroot\\css\\open-iconic\\README.md",
       "PackagePath": "staticwebassets\\css\\open-iconic\\README.md"
     },
     {
-      "Id": "C:\\Proj\\BlazorCCPro\\BlazorCCPro\\Client\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Id": "C:\\Projects\\CCPro Webapp\\Webapp\\BlazorCCPro\\Client\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Id": "C:\\Proj\\BlazorCCPro\\BlazorCCPro\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Id": "C:\\Projects\\CCPro Webapp\\Webapp\\BlazorCCPro\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Id": "C:\\Proj\\BlazorCCPro\\BlazorCCPro\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Id": "C:\\Projects\\CCPro Webapp\\Webapp\\BlazorCCPro\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Id": "C:\\Proj\\BlazorCCPro\\BlazorCCPro\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Id": "C:\\Projects\\CCPro Webapp\\Webapp\\BlazorCCPro\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Id": "C:\\Proj\\BlazorCCPro\\BlazorCCPro\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Id": "C:\\Projects\\CCPro Webapp\\Webapp\\BlazorCCPro\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Id": "C:\\Proj\\BlazorCCPro\\BlazorCCPro\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Id": "C:\\Projects\\CCPro Webapp\\Webapp\\BlazorCCPro\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Id": "C:\\Proj\\BlazorCCPro\\BlazorCCPro\\Client\\wwwroot\\favicon.ico",
+      "Id": "C:\\Projects\\CCPro Webapp\\Webapp\\BlazorCCPro\\Client\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Proj\\BlazorCCPro\\BlazorCCPro\\Client\\wwwroot\\icon-192.png",
+      "Id": "C:\\Projects\\CCPro Webapp\\Webapp\\BlazorCCPro\\Client\\wwwroot\\icon-192.png",
       "PackagePath": "staticwebassets\\icon-192.png"
     },
     {
-      "Id": "C:\\Proj\\BlazorCCPro\\BlazorCCPro\\Client\\wwwroot\\icon-actvie.png",
+      "Id": "C:\\Projects\\CCPro Webapp\\Webapp\\BlazorCCPro\\Client\\wwwroot\\icon-actvie.png",
       "PackagePath": "staticwebassets\\icon-actvie.png"
     },
     {
-      "Id": "C:\\Proj\\BlazorCCPro\\BlazorCCPro\\Client\\wwwroot\\icon-female.png",
+      "Id": "C:\\Projects\\CCPro Webapp\\Webapp\\BlazorCCPro\\Client\\wwwroot\\icon-female.png",
       "PackagePath": "staticwebassets\\icon-female.png"
     },
     {
-      "Id": "C:\\Proj\\BlazorCCPro\\BlazorCCPro\\Client\\wwwroot\\icon-male.png",
+      "Id": "C:\\Projects\\CCPro Webapp\\Webapp\\BlazorCCPro\\Client\\wwwroot\\icon-male.png",
       "PackagePath": "staticwebassets\\icon-male.png"
     },
     {
-      "Id": "C:\\Proj\\BlazorCCPro\\BlazorCCPro\\Client\\wwwroot\\icon-notactvie.png",
+      "Id": "C:\\Projects\\CCPro Webapp\\Webapp\\BlazorCCPro\\Client\\wwwroot\\icon-notactvie.png",
       "PackagePath": "staticwebassets\\icon-notactvie.png"
     },
     {
-      "Id": "C:\\Proj\\BlazorCCPro\\BlazorCCPro\\Client\\wwwroot\\index.html",
+      "Id": "C:\\Projects\\CCPro Webapp\\Webapp\\BlazorCCPro\\Client\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {
-      "Id": "C:\\Proj\\BlazorCCPro\\BlazorCCPro\\Client\\wwwroot\\login-img\\CCP-Logo.png",
+      "Id": "C:\\Projects\\CCPro Webapp\\Webapp\\BlazorCCPro\\Client\\wwwroot\\login-img\\CCP-Logo.png",
       "PackagePath": "staticwebassets\\login-img\\CCP-Logo.png"
     },
     {
-      "Id": "C:\\Proj\\BlazorCCPro\\BlazorCCPro\\Client\\wwwroot\\login-img\\LoginImage6L-01.jpg",
+      "Id": "C:\\Projects\\CCPro Webapp\\Webapp\\BlazorCCPro\\Client\\wwwroot\\login-img\\LoginImage6L-01.jpg",
       "PackagePath": "staticwebassets\\login-img\\LoginImage6L-01.jpg"
     },
     {
-      "Id": "C:\\Proj\\BlazorCCPro\\BlazorCCPro\\Client\\wwwroot\\login-img\\LoginImage6R-01.jpg",
+      "Id": "C:\\Projects\\CCPro Webapp\\Webapp\\BlazorCCPro\\Client\\wwwroot\\login-img\\LoginImage6R-01.jpg",
       "PackagePath": "staticwebassets\\login-img\\LoginImage6R-01.jpg"
     },
     {

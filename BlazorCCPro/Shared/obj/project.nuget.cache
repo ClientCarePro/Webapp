@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "D+Z2wwSPvNgjLCIx7ObLXLcwzxCdNbkpsltoREcGwBbuGKhihWQnJCSDTbAuUPKW563KKKIHeI5zZmVDnofX+w==",
+  "dgSpecHash": "Rx79hh7HHViSNTLt7wy9ufnMCp2pepD8ahIeUMwglbd/Mz2tgf1VrG6r9FttaMLsqBOSvXYQEY8oIlo4cB3zqw==",
   "success": true,
-  "projectFilePath": "C:\\Proj\\BlazorCCPro\\BlazorCCPro\\Shared\\BlazorCCPro.Shared.csproj",
+  "projectFilePath": "C:\\Projects\\CCPro Webapp\\Webapp\\BlazorCCPro\\Shared\\BlazorCCPro.Shared.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
