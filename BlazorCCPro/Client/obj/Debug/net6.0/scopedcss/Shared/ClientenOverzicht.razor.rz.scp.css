@@ -1,0 +1,152 @@
+
+
+body[b-1aaqcxse2m] {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-family: "Open Sans", "Helvetica", "sans-serif";
+    background-color: rgb(248, 248, 248);
+}
+
+.ClientenOverzicht_titel[b-1aaqcxse2m] {
+    margin-top: 15px;
+}
+ h3[b-1aaqcxse2m] {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+    }
+
+.clientOverzicht_container[b-1aaqcxse2m] {
+    margin-top: 80px;
+    margin-right: 80px;
+    margin-left: 450px; 
+    height: 800px;
+    width: 500px;
+}
+
+.button_clientToevoegen[b-1aaqcxse2m] {
+    background-color: #7ec6ec;
+    width: 30%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.button_clientWijzigen[b-1aaqcxse2m] {
+    background-color: orange;
+    width: 30%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.button_clientVerwijderen[b-1aaqcxse2m] {
+    background-color: red;
+    width: 30%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.clientOverzicht_card[b-1aaqcxse2m] {
+    overflow: hidden;
+    white-space: nowrap;
+    background: #f4fbff;
+    padding: 8px 20px;
+    border-style: solid;
+    border-color: #7ec6ec;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+    .clientOverzicht_card img[b-1aaqcxse2m] {
+        height: 60px;
+        width: 60px;
+    }
+
+    .clientOverzicht_card .clientOverzicht_card_content[b-1aaqcxse2m] {
+        flex-grow: 1;
+        padding: 10px 30px;
+    }
+
+    .clientOverzicht_card h2[b-1aaqcxse2m] {
+        font-size: 14px;
+        margin: 0;
+        line-height: 1.4;
+    }
+
+    .clientOverzicht_card p[b-1aaqcxse2m] {
+        font-size: 12px;
+        margin: 0;
+        line-height: 1.4;
+    }
+
+.ButtonLine[b-1aaqcxse2m] {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.media-img[b-1aaqcxse2m]{
+    max-height: 200px;
+    max-width: 200px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    transition: transform .2s;
+}
+
+.media-img:hover[b-1aaqcxse2m]{
+    transform: scale(10.1);
+
+ }
+
+.media[b-1aaqcxse2m] {
+    display: flex;
+    align-items: flex-start;
+}
+
+.media-body[b-1aaqcxse2m] {
+    flex: 1;
+}
+
+.media-img-wrapper[b-1aaqcxse2m] {
+    width: 200px;
+    text-align: center;
+
+}
+
+@media (max-width:1023.98px) {
+    .media[b-1aaqcxse2m] {
+        flex-direction: column;
+     }
+
+    .media-img-wrapper[b-1aaqcxse2m] {
+        
+        width: 100%;
+        height: auto;
+    }
+}

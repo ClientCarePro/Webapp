@@ -1,0 +1,127 @@
+﻿@using BlazorCCPro.Shared
+@inject HttpClient Http
+
+
+
+<body>
+    <h3 class="ClientenOverzicht_titel">Clienten Overzicht</h3>
+
+  <div class="clientOverzicht_container">
+
+  
+
+  <div class="clientOverzicht_card"
+    <img src="/ClientenOverzicht-img/profile-icon.png"  alt="Profile image"/>
+    <div class="clientOverzicht_card_content">
+    <h2>Klaasje van Bommell</h2>
+    <p>20-04-1999</p>
+    <p>Badhoevendorp</p> 
+    <p>Begeleid wonen: TRUE</p>
+    <p>Ambulante begeleiding: FALSE</p>
+    <p>Geindiceerde ZZP-range: ZZP1</p>
+    <p>Aanmelddatum: 01-06-2023</p>
+    <p>Afmelddatum:</p>
+    <p>Aantal MIC meldingen: 1</p>
+  </div>
+  </div>
+
+  <br>
+
+  <div class="clientOverzicht_card">
+   <img src="/ClientenOverzicht-img/profile-icon.png"  alt="Profile image"/>
+    <div class="clientOverzicht_card_content">
+      <h2>Klaasje van Bommell</h2>
+      <p>20-04-1999</p>
+      <p>Badhoevendorp</p>
+      <p>Begeleid wonen: TRUE</p>
+      <p>Ambulante begeleiding: FALSE</p>
+      <p>Geindiceerde ZZP-range: ZZP1</p>
+      <p>Aanmelddatum: 01-06-2023</p>
+      <p>Afmelddatum:</p>
+      <p>Aantal MIC meldingen: 1</p>
+    </div>
+</div>
+
+<br>
+
+<div class="clientOverzicht_card">
+   <img src="/ClientenOverzicht-img/profile-icon.png"  alt="Profile image"/>
+  <div class="clientOverzicht_card_content">
+    <h2>Klaasje van Bommeli</h2>
+    <p>20-04-1999 </p>
+    <p>Badhoevendorp</p>
+    <p>Begeleid wonen: TRUE</p>
+    <p>Ambulante begeleiding: FALSE</p>
+    <p>Geindiceerde ZZP-range: ZZP1</p>
+    <p>Aanmelddatum: 01-06-2023</p>
+    <p>Afmelddatum:</p>
+    <p>Aantal MIC meldingen: 1</p>
+  </div>
+</div>
+
+<br>
+
+<div class="clientOverzicht_card">
+   <img src="/ClientenOverzicht-img/profile-icon.png"  alt="Profile image"/>
+  <div class="clientOverzicht_card_content">
+    <h2>Klaasje van Bommell</h2>
+    <p>20-04-1999</p>
+    <p>Badhoevendorp</p>
+    <p>Begeleid wonen: TRUE</p>
+    <p>Ambulante begeleiding: FALSE</p>
+    <p>Geindiceerde ZZP-range: ZZP1</p>
+    <p>Aanmelddatum: 01-06-2023</p>
+    <p>Afmelddatum:</p>
+    <p>Aantal MIC meldingen: 1</p>
+  </div>
+</div>
+
+        <div class="ButtonLine">
+            <button class="button_clientToevoegen">Client toevoegen</button>
+            <button class="button_clientWijzigen">Wijzigen</button>
+            <button class="button_clientVerwijderen">Verwijderen</button>
+        </div>
+
+        <br>
+
+</div>
+
+</body>  
+
+
+
+
+@*<ul class="list-unstyled">
+	@foreach (var clienten in clientens)
+	{
+		<li class="media my-3">
+			<div class="media-img-wrapper mr-2">
+			
+			</div>
+			<div class="media-body">
+				<a href="#">
+					<img class="media-img" scr="/client-img/InlogLogo.png" alt="profielfoto" />
+					<h10 class="mb-0">@clienten.Voornaam @clienten.Achternaam</h10>
+				</a>
+				<p>@clienten.Geboortedatum</p>
+				<h12 class="DossierGegevens">
+				<p>@clienten.Woonplaats</P> 
+				<p>Begeleid wonen: @clienten.Begeleidwonen</p>
+				<p>Ambulante begeleiding: @clienten.AmbulanteBegeleiding</p>
+				<p>Geindiceerde ZZP-range: @clienten.GeindiceerdeZZPRange</p>
+				<p>Aanmelddatum: @clienten.Aanmelddatum</p>
+				<p>Afmelddatum: @clienten.Afmelddatum</p>
+				<p>Aantal MIC meldingen: @clienten.AantalRapportages</p>
+
+				</h12>
+			</div>
+		</li>
+	}
+</ul>*@
+@code {
+	
+
+}
+
+
+

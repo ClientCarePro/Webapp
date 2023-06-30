@@ -1,0 +1,174 @@
+C:\Proj\BlazorCCPro\BlazorCCPro\Server\bin\Debug\net6.0\BlazorCCPro.Client.staticwebassets.runtime.json
+C:\Proj\BlazorCCPro\BlazorCCPro\Server\bin\Debug\net6.0\appsettings.Development.json
+C:\Proj\BlazorCCPro\BlazorCCPro\Server\bin\Debug\net6.0\appsettings.json
+C:\Proj\BlazorCCPro\BlazorCCPro\Server\bin\Debug\net6.0\BlazorDebugProxy\BrowserDebugHost.dll
+C:\Proj\BlazorCCPro\BlazorCCPro\Server\bin\Debug\net6.0\BlazorDebugProxy\BrowserDebugHost.runtimeconfig.json
+C:\Proj\BlazorCCPro\BlazorCCPro\Server\bin\Debug\net6.0\BlazorDebugProxy\BrowserDebugProxy.dll
+C:\Proj\BlazorCCPro\BlazorCCPro\Server\bin\Debug\net6.0\BlazorDebugProxy\Microsoft.CodeAnalysis.CSharp.dll
+C:\Proj\BlazorCCPro\BlazorCCPro\Server\bin\Debug\net6.0\BlazorDebugProxy\Microsoft.CodeAnalysis.dll
+C:\Proj\BlazorCCPro\BlazorCCPro\Server\bin\Debug\net6.0\BlazorDebugProxy\Newtonsoft.Json.dll
+C:\Proj\BlazorCCPro\BlazorCCPro\Server\bin\Debug\net6.0\BlazorCCPro.Server.staticwebassets.runtime.json
+C:\Proj\BlazorCCPro\BlazorCCPro\Server\bin\Debug\net6.0\BlazorCCPro.Server.exe
+C:\Proj\BlazorCCPro\BlazorCCPro\Server\bin\Debug\net6.0\BlazorCCPro.Server.deps.json
+C:\Proj\BlazorCCPro\BlazorCCPro\Server\bin\Debug\net6.0\BlazorCCPro.Server.runtimeconfig.json
+C:\Proj\BlazorCCPro\BlazorCCPro\Server\bin\Debug\net6.0\BlazorCCPro.Server.dll
+C:\Proj\BlazorCCPro\BlazorCCPro\Server\bin\Debug\net6.0\BlazorCCPro.Server.pdb
+C:\Proj\BlazorCCPro\BlazorCCPro\Server\bin\Debug\net6.0\Microsoft.AspNetCore.Authorization.dll
+C:\Proj\BlazorCCPro\BlazorCCPro\Server\bin\Debug\net6.0\Microsoft.AspNetCore.Components.dll
+C:\Proj\BlazorCCPro\BlazorCCPro\Server\bin\Debug\net6.0\Microsoft.AspNetCore.Components.Forms.dll
+C:\Proj\BlazorCCPro\BlazorCCPro\Server\bin\Debug\net6.0\Microsoft.AspNetCore.Components.Web.dll
+C:\Proj\BlazorCCPro\BlazorCCPro\Server\bin\Debug\net6.0\Microsoft.AspNetCore.Components.WebAssembly.dll
+C:\Proj\BlazorCCPro\BlazorCCPro\Server\bin\Debug\net6.0\Microsoft.AspNetCore.Components.WebAssembly.Server.dll
+C:\Proj\BlazorCCPro\BlazorCCPro\Server\bin\Debug\net6.0\Microsoft.AspNetCore.Metadata.dll
+C:\Proj\BlazorCCPro\BlazorCCPro\Server\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Proj\BlazorCCPro\BlazorCCPro\Server\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Proj\BlazorCCPro\BlazorCCPro\Server\bin\Debug\net6.0\Microsoft.JSInterop.dll
+C:\Proj\BlazorCCPro\BlazorCCPro\Server\bin\Debug\net6.0\Microsoft.JSInterop.WebAssembly.dll
+C:\Proj\BlazorCCPro\BlazorCCPro\Server\bin\Debug\net6.0\System.IO.Pipelines.dll
+C:\Proj\BlazorCCPro\BlazorCCPro\Server\bin\Debug\net6.0\BlazorCCPro.Client.dll
+C:\Proj\BlazorCCPro\BlazorCCPro\Server\bin\Debug\net6.0\BlazorCCPro.Shared.dll
+C:\Proj\BlazorCCPro\BlazorCCPro\Server\bin\Debug\net6.0\BlazorCCPro.Client.pdb
+C:\Proj\BlazorCCPro\BlazorCCPro\Server\bin\Debug\net6.0\BlazorCCPro.Shared.pdb
+C:\Proj\BlazorCCPro\BlazorCCPro\Server\obj\Debug\net6.0\BlazorCCPro.Server.csproj.AssemblyReference.cache
+C:\Proj\BlazorCCPro\BlazorCCPro\Server\obj\Debug\net6.0\BlazorCCPro.Server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Proj\BlazorCCPro\BlazorCCPro\Server\obj\Debug\net6.0\BlazorCCPro.Server.AssemblyInfoInputs.cache
+C:\Proj\BlazorCCPro\BlazorCCPro\Server\obj\Debug\net6.0\BlazorCCPro.Server.AssemblyInfo.cs
+C:\Proj\BlazorCCPro\BlazorCCPro\Server\obj\Debug\net6.0\BlazorCCPro.Server.csproj.CoreCompileInputs.cache
+C:\Proj\BlazorCCPro\BlazorCCPro\Server\obj\Debug\net6.0\BlazorCCPro.Server.MvcApplicationPartsAssemblyInfo.cache
+C:\Proj\BlazorCCPro\BlazorCCPro\Server\obj\Debug\net6.0\BlazorCCPro.Server.RazorAssemblyInfo.cache
+C:\Proj\BlazorCCPro\BlazorCCPro\Server\obj\Debug\net6.0\BlazorCCPro.Server.RazorAssemblyInfo.cs
+C:\Proj\BlazorCCPro\BlazorCCPro\Server\obj\Debug\net6.0\staticwebassets\msbuild.BlazorCCPro.Server.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Proj\BlazorCCPro\BlazorCCPro\Server\obj\Debug\net6.0\staticwebassets\msbuild.build.BlazorCCPro.Server.props
+C:\Proj\BlazorCCPro\BlazorCCPro\Server\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.BlazorCCPro.Server.props
+C:\Proj\BlazorCCPro\BlazorCCPro\Server\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.BlazorCCPro.Server.props
+C:\Proj\BlazorCCPro\BlazorCCPro\Server\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Proj\BlazorCCPro\BlazorCCPro\Server\obj\Debug\net6.0\staticwebassets.build.json
+C:\Proj\BlazorCCPro\BlazorCCPro\Server\obj\Debug\net6.0\staticwebassets.development.json
+C:\Proj\BlazorCCPro\BlazorCCPro\Server\obj\Debug\net6.0\scopedcss\bundle\BlazorCCPro.Server.styles.css
+C:\Proj\BlazorCCPro\BlazorCCPro\Server\obj\Debug\net6.0\BlazorCCPro.Server.csproj.CopyComplete
+C:\Proj\BlazorCCPro\BlazorCCPro\Server\obj\Debug\net6.0\BlazorCCPro.Server.dll
+C:\Proj\BlazorCCPro\BlazorCCPro\Server\obj\Debug\net6.0\refint\BlazorCCPro.Server.dll
+C:\Proj\BlazorCCPro\BlazorCCPro\Server\obj\Debug\net6.0\BlazorCCPro.Server.pdb
+C:\Proj\BlazorCCPro\BlazorCCPro\Server\obj\Debug\net6.0\BlazorCCPro.Server.genruntimeconfig.cache
+C:\Proj\BlazorCCPro\BlazorCCPro\Server\obj\Debug\net6.0\ref\BlazorCCPro.Server.dll
+C:\Proj\BlazorCCPro\BlazorCCPro\Server\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Proj\BlazorCCPro\BlazorCCPro\Server\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Proj\BlazorCCPro\BlazorCCPro\Server\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Proj\BlazorCCPro\BlazorCCPro\Server\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Proj\BlazorCCPro\BlazorCCPro\Server\obj\Debug\net6.0\BlazorCCPro.Server.MvcApplicationPartsAssemblyInfo.cs
+C:\Projects\CCPro Webapp\Webapp\BlazorCCPro\Server\bin\Debug\net6.0\appsettings.Development.json
+C:\Projects\CCPro Webapp\Webapp\BlazorCCPro\Server\bin\Debug\net6.0\appsettings.json
+C:\Projects\CCPro Webapp\Webapp\BlazorCCPro\Server\bin\Debug\net6.0\BlazorDebugProxy\BrowserDebugHost.dll
+C:\Projects\CCPro Webapp\Webapp\BlazorCCPro\Server\bin\Debug\net6.0\BlazorDebugProxy\BrowserDebugHost.runtimeconfig.json
+C:\Projects\CCPro Webapp\Webapp\BlazorCCPro\Server\bin\Debug\net6.0\BlazorDebugProxy\BrowserDebugProxy.dll
+C:\Projects\CCPro Webapp\Webapp\BlazorCCPro\Server\bin\Debug\net6.0\BlazorDebugProxy\Microsoft.CodeAnalysis.CSharp.dll
+C:\Projects\CCPro Webapp\Webapp\BlazorCCPro\Server\bin\Debug\net6.0\BlazorDebugProxy\Microsoft.CodeAnalysis.dll
+C:\Projects\CCPro Webapp\Webapp\BlazorCCPro\Server\bin\Debug\net6.0\BlazorDebugProxy\Newtonsoft.Json.dll
+C:\Projects\CCPro Webapp\Webapp\BlazorCCPro\Server\bin\Debug\net6.0\BlazorCCPro.Client.staticwebassets.runtime.json
+C:\Projects\CCPro Webapp\Webapp\BlazorCCPro\Server\bin\Debug\net6.0\BlazorCCPro.Server.staticwebassets.runtime.json
+C:\Projects\CCPro Webapp\Webapp\BlazorCCPro\Server\bin\Debug\net6.0\BlazorCCPro.Server.exe
+C:\Projects\CCPro Webapp\Webapp\BlazorCCPro\Server\bin\Debug\net6.0\BlazorCCPro.Server.deps.json
+C:\Projects\CCPro Webapp\Webapp\BlazorCCPro\Server\bin\Debug\net6.0\BlazorCCPro.Server.runtimeconfig.json
+C:\Projects\CCPro Webapp\Webapp\BlazorCCPro\Server\bin\Debug\net6.0\BlazorCCPro.Server.dll
+C:\Projects\CCPro Webapp\Webapp\BlazorCCPro\Server\bin\Debug\net6.0\BlazorCCPro.Server.pdb
+C:\Projects\CCPro Webapp\Webapp\BlazorCCPro\Server\bin\Debug\net6.0\Microsoft.AspNetCore.Authorization.dll
+C:\Projects\CCPro Webapp\Webapp\BlazorCCPro\Server\bin\Debug\net6.0\Microsoft.AspNetCore.Components.dll
+C:\Projects\CCPro Webapp\Webapp\BlazorCCPro\Server\bin\Debug\net6.0\Microsoft.AspNetCore.Components.Forms.dll
+C:\Projects\CCPro Webapp\Webapp\BlazorCCPro\Server\bin\Debug\net6.0\Microsoft.AspNetCore.Components.Web.dll
+C:\Projects\CCPro Webapp\Webapp\BlazorCCPro\Server\bin\Debug\net6.0\Microsoft.AspNetCore.Components.WebAssembly.dll
+C:\Projects\CCPro Webapp\Webapp\BlazorCCPro\Server\bin\Debug\net6.0\Microsoft.AspNetCore.Components.WebAssembly.Server.dll
+C:\Projects\CCPro Webapp\Webapp\BlazorCCPro\Server\bin\Debug\net6.0\Microsoft.AspNetCore.Metadata.dll
+C:\Projects\CCPro Webapp\Webapp\BlazorCCPro\Server\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Projects\CCPro Webapp\Webapp\BlazorCCPro\Server\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Projects\CCPro Webapp\Webapp\BlazorCCPro\Server\bin\Debug\net6.0\Microsoft.JSInterop.dll
+C:\Projects\CCPro Webapp\Webapp\BlazorCCPro\Server\bin\Debug\net6.0\Microsoft.JSInterop.WebAssembly.dll
+C:\Projects\CCPro Webapp\Webapp\BlazorCCPro\Server\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Projects\CCPro Webapp\Webapp\BlazorCCPro\Server\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Projects\CCPro Webapp\Webapp\BlazorCCPro\Server\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Projects\CCPro Webapp\Webapp\BlazorCCPro\Server\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Projects\CCPro Webapp\Webapp\BlazorCCPro\Server\bin\Debug\net6.0\System.IO.Pipelines.dll
+C:\Projects\CCPro Webapp\Webapp\BlazorCCPro\Server\bin\Debug\net6.0\BlazorCCPro.Client.dll
+C:\Projects\CCPro Webapp\Webapp\BlazorCCPro\Server\bin\Debug\net6.0\BlazorCCPro.Shared.dll
+C:\Projects\CCPro Webapp\Webapp\BlazorCCPro\Server\bin\Debug\net6.0\BlazorCCPro.Client.pdb
+C:\Projects\CCPro Webapp\Webapp\BlazorCCPro\Server\bin\Debug\net6.0\BlazorCCPro.Shared.pdb
+C:\Projects\CCPro Webapp\Webapp\BlazorCCPro\Server\obj\Debug\net6.0\BlazorCCPro.Server.csproj.AssemblyReference.cache
+C:\Projects\CCPro Webapp\Webapp\BlazorCCPro\Server\obj\Debug\net6.0\BlazorCCPro.Server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\CCPro Webapp\Webapp\BlazorCCPro\Server\obj\Debug\net6.0\BlazorCCPro.Server.AssemblyInfoInputs.cache
+C:\Projects\CCPro Webapp\Webapp\BlazorCCPro\Server\obj\Debug\net6.0\BlazorCCPro.Server.AssemblyInfo.cs
+C:\Projects\CCPro Webapp\Webapp\BlazorCCPro\Server\obj\Debug\net6.0\BlazorCCPro.Server.csproj.CoreCompileInputs.cache
+C:\Projects\CCPro Webapp\Webapp\BlazorCCPro\Server\obj\Debug\net6.0\BlazorCCPro.Server.MvcApplicationPartsAssemblyInfo.cs
+C:\Projects\CCPro Webapp\Webapp\BlazorCCPro\Server\obj\Debug\net6.0\BlazorCCPro.Server.MvcApplicationPartsAssemblyInfo.cache
+C:\Projects\CCPro Webapp\Webapp\BlazorCCPro\Server\obj\Debug\net6.0\BlazorCCPro.Server.RazorAssemblyInfo.cache
+C:\Projects\CCPro Webapp\Webapp\BlazorCCPro\Server\obj\Debug\net6.0\BlazorCCPro.Server.RazorAssemblyInfo.cs
+C:\Projects\CCPro Webapp\Webapp\BlazorCCPro\Server\obj\Debug\net6.0\staticwebassets\msbuild.BlazorCCPro.Server.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Projects\CCPro Webapp\Webapp\BlazorCCPro\Server\obj\Debug\net6.0\staticwebassets\msbuild.build.BlazorCCPro.Server.props
+C:\Projects\CCPro Webapp\Webapp\BlazorCCPro\Server\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.BlazorCCPro.Server.props
+C:\Projects\CCPro Webapp\Webapp\BlazorCCPro\Server\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.BlazorCCPro.Server.props
+C:\Projects\CCPro Webapp\Webapp\BlazorCCPro\Server\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Projects\CCPro Webapp\Webapp\BlazorCCPro\Server\obj\Debug\net6.0\staticwebassets.build.json
+C:\Projects\CCPro Webapp\Webapp\BlazorCCPro\Server\obj\Debug\net6.0\staticwebassets.development.json
+C:\Projects\CCPro Webapp\Webapp\BlazorCCPro\Server\obj\Debug\net6.0\scopedcss\bundle\BlazorCCPro.Server.styles.css
+C:\Projects\CCPro Webapp\Webapp\BlazorCCPro\Server\obj\Debug\net6.0\BlazorCCPro.Server.csproj.CopyComplete
+C:\Projects\CCPro Webapp\Webapp\BlazorCCPro\Server\obj\Debug\net6.0\BlazorCCPro.Server.dll
+C:\Projects\CCPro Webapp\Webapp\BlazorCCPro\Server\obj\Debug\net6.0\refint\BlazorCCPro.Server.dll
+C:\Projects\CCPro Webapp\Webapp\BlazorCCPro\Server\obj\Debug\net6.0\BlazorCCPro.Server.pdb
+C:\Projects\CCPro Webapp\Webapp\BlazorCCPro\Server\obj\Debug\net6.0\BlazorCCPro.Server.genruntimeconfig.cache
+C:\Projects\CCPro Webapp\Webapp\BlazorCCPro\Server\obj\Debug\net6.0\ref\BlazorCCPro.Server.dll
+C:\Projects\CCPro Webapp\Webapp\Webapp\BlazorCCPro\Server\bin\Debug\net6.0\appsettings.Development.json
+C:\Projects\CCPro Webapp\Webapp\Webapp\BlazorCCPro\Server\bin\Debug\net6.0\appsettings.json
+C:\Projects\CCPro Webapp\Webapp\Webapp\BlazorCCPro\Server\bin\Debug\net6.0\BlazorDebugProxy\BrowserDebugHost.dll
+C:\Projects\CCPro Webapp\Webapp\Webapp\BlazorCCPro\Server\bin\Debug\net6.0\BlazorDebugProxy\BrowserDebugHost.runtimeconfig.json
+C:\Projects\CCPro Webapp\Webapp\Webapp\BlazorCCPro\Server\bin\Debug\net6.0\BlazorDebugProxy\BrowserDebugProxy.dll
+C:\Projects\CCPro Webapp\Webapp\Webapp\BlazorCCPro\Server\bin\Debug\net6.0\BlazorDebugProxy\Microsoft.CodeAnalysis.CSharp.dll
+C:\Projects\CCPro Webapp\Webapp\Webapp\BlazorCCPro\Server\bin\Debug\net6.0\BlazorDebugProxy\Microsoft.CodeAnalysis.dll
+C:\Projects\CCPro Webapp\Webapp\Webapp\BlazorCCPro\Server\bin\Debug\net6.0\BlazorDebugProxy\Newtonsoft.Json.dll
+C:\Projects\CCPro Webapp\Webapp\Webapp\BlazorCCPro\Server\bin\Debug\net6.0\BlazorCCPro.Client.staticwebassets.runtime.json
+C:\Projects\CCPro Webapp\Webapp\Webapp\BlazorCCPro\Server\bin\Debug\net6.0\BlazorCCPro.Server.staticwebassets.runtime.json
+C:\Projects\CCPro Webapp\Webapp\Webapp\BlazorCCPro\Server\bin\Debug\net6.0\BlazorCCPro.Server.exe
+C:\Projects\CCPro Webapp\Webapp\Webapp\BlazorCCPro\Server\bin\Debug\net6.0\BlazorCCPro.Server.deps.json
+C:\Projects\CCPro Webapp\Webapp\Webapp\BlazorCCPro\Server\bin\Debug\net6.0\BlazorCCPro.Server.runtimeconfig.json
+C:\Projects\CCPro Webapp\Webapp\Webapp\BlazorCCPro\Server\bin\Debug\net6.0\BlazorCCPro.Server.dll
+C:\Projects\CCPro Webapp\Webapp\Webapp\BlazorCCPro\Server\bin\Debug\net6.0\BlazorCCPro.Server.pdb
+C:\Projects\CCPro Webapp\Webapp\Webapp\BlazorCCPro\Server\bin\Debug\net6.0\Microsoft.AspNetCore.Authorization.dll
+C:\Projects\CCPro Webapp\Webapp\Webapp\BlazorCCPro\Server\bin\Debug\net6.0\Microsoft.AspNetCore.Components.dll
+C:\Projects\CCPro Webapp\Webapp\Webapp\BlazorCCPro\Server\bin\Debug\net6.0\Microsoft.AspNetCore.Components.Forms.dll
+C:\Projects\CCPro Webapp\Webapp\Webapp\BlazorCCPro\Server\bin\Debug\net6.0\Microsoft.AspNetCore.Components.Web.dll
+C:\Projects\CCPro Webapp\Webapp\Webapp\BlazorCCPro\Server\bin\Debug\net6.0\Microsoft.AspNetCore.Components.WebAssembly.dll
+C:\Projects\CCPro Webapp\Webapp\Webapp\BlazorCCPro\Server\bin\Debug\net6.0\Microsoft.AspNetCore.Components.WebAssembly.Server.dll
+C:\Projects\CCPro Webapp\Webapp\Webapp\BlazorCCPro\Server\bin\Debug\net6.0\Microsoft.AspNetCore.Metadata.dll
+C:\Projects\CCPro Webapp\Webapp\Webapp\BlazorCCPro\Server\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Projects\CCPro Webapp\Webapp\Webapp\BlazorCCPro\Server\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Projects\CCPro Webapp\Webapp\Webapp\BlazorCCPro\Server\bin\Debug\net6.0\Microsoft.JSInterop.dll
+C:\Projects\CCPro Webapp\Webapp\Webapp\BlazorCCPro\Server\bin\Debug\net6.0\Microsoft.JSInterop.WebAssembly.dll
+C:\Projects\CCPro Webapp\Webapp\Webapp\BlazorCCPro\Server\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Projects\CCPro Webapp\Webapp\Webapp\BlazorCCPro\Server\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Projects\CCPro Webapp\Webapp\Webapp\BlazorCCPro\Server\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Projects\CCPro Webapp\Webapp\Webapp\BlazorCCPro\Server\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Projects\CCPro Webapp\Webapp\Webapp\BlazorCCPro\Server\bin\Debug\net6.0\System.IO.Pipelines.dll
+C:\Projects\CCPro Webapp\Webapp\Webapp\BlazorCCPro\Server\bin\Debug\net6.0\BlazorCCPro.Client.dll
+C:\Projects\CCPro Webapp\Webapp\Webapp\BlazorCCPro\Server\bin\Debug\net6.0\BlazorCCPro.Shared.dll
+C:\Projects\CCPro Webapp\Webapp\Webapp\BlazorCCPro\Server\bin\Debug\net6.0\BlazorCCPro.Client.pdb
+C:\Projects\CCPro Webapp\Webapp\Webapp\BlazorCCPro\Server\bin\Debug\net6.0\BlazorCCPro.Shared.pdb
+C:\Projects\CCPro Webapp\Webapp\Webapp\BlazorCCPro\Server\obj\Debug\net6.0\BlazorCCPro.Server.csproj.AssemblyReference.cache
+C:\Projects\CCPro Webapp\Webapp\Webapp\BlazorCCPro\Server\obj\Debug\net6.0\BlazorCCPro.Server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\CCPro Webapp\Webapp\Webapp\BlazorCCPro\Server\obj\Debug\net6.0\BlazorCCPro.Server.AssemblyInfoInputs.cache
+C:\Projects\CCPro Webapp\Webapp\Webapp\BlazorCCPro\Server\obj\Debug\net6.0\BlazorCCPro.Server.AssemblyInfo.cs
+C:\Projects\CCPro Webapp\Webapp\Webapp\BlazorCCPro\Server\obj\Debug\net6.0\BlazorCCPro.Server.csproj.CoreCompileInputs.cache
+C:\Projects\CCPro Webapp\Webapp\Webapp\BlazorCCPro\Server\obj\Debug\net6.0\BlazorCCPro.Server.MvcApplicationPartsAssemblyInfo.cs
+C:\Projects\CCPro Webapp\Webapp\Webapp\BlazorCCPro\Server\obj\Debug\net6.0\BlazorCCPro.Server.MvcApplicationPartsAssemblyInfo.cache
+C:\Projects\CCPro Webapp\Webapp\Webapp\BlazorCCPro\Server\obj\Debug\net6.0\BlazorCCPro.Server.RazorAssemblyInfo.cache
+C:\Projects\CCPro Webapp\Webapp\Webapp\BlazorCCPro\Server\obj\Debug\net6.0\BlazorCCPro.Server.RazorAssemblyInfo.cs
+C:\Projects\CCPro Webapp\Webapp\Webapp\BlazorCCPro\Server\obj\Debug\net6.0\staticwebassets\msbuild.BlazorCCPro.Server.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Projects\CCPro Webapp\Webapp\Webapp\BlazorCCPro\Server\obj\Debug\net6.0\staticwebassets\msbuild.build.BlazorCCPro.Server.props
+C:\Projects\CCPro Webapp\Webapp\Webapp\BlazorCCPro\Server\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.BlazorCCPro.Server.props
+C:\Projects\CCPro Webapp\Webapp\Webapp\BlazorCCPro\Server\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.BlazorCCPro.Server.props
+C:\Projects\CCPro Webapp\Webapp\Webapp\BlazorCCPro\Server\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Projects\CCPro Webapp\Webapp\Webapp\BlazorCCPro\Server\obj\Debug\net6.0\staticwebassets.build.json
+C:\Projects\CCPro Webapp\Webapp\Webapp\BlazorCCPro\Server\obj\Debug\net6.0\staticwebassets.development.json
+C:\Projects\CCPro Webapp\Webapp\Webapp\BlazorCCPro\Server\obj\Debug\net6.0\scopedcss\bundle\BlazorCCPro.Server.styles.css
+C:\Projects\CCPro Webapp\Webapp\Webapp\BlazorCCPro\Server\obj\Debug\net6.0\BlazorCCPro.Server.csproj.CopyComplete
+C:\Projects\CCPro Webapp\Webapp\Webapp\BlazorCCPro\Server\obj\Debug\net6.0\BlazorCCPro.Server.dll
+C:\Projects\CCPro Webapp\Webapp\Webapp\BlazorCCPro\Server\obj\Debug\net6.0\refint\BlazorCCPro.Server.dll
+C:\Projects\CCPro Webapp\Webapp\Webapp\BlazorCCPro\Server\obj\Debug\net6.0\BlazorCCPro.Server.pdb
+C:\Projects\CCPro Webapp\Webapp\Webapp\BlazorCCPro\Server\obj\Debug\net6.0\BlazorCCPro.Server.genruntimeconfig.cache
+C:\Projects\CCPro Webapp\Webapp\Webapp\BlazorCCPro\Server\obj\Debug\net6.0\ref\BlazorCCPro.Server.dll
