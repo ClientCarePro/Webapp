@@ -9,7 +9,8 @@ main[b-p4yqdclwia] {
 }
 
 .sidebar[b-p4yqdclwia] {
-    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+    /*background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);*/
+    background-color: aliceblue;
 }
 
 .top-row[b-p4yqdclwia] {

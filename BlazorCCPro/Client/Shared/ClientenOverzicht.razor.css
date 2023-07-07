@@ -1,34 +1,12 @@
 ﻿
 
-body {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    font-family: "Open Sans", "Helvetica", "sans-serif";
-    background-color: rgb(248, 248, 248);
-}
-
-.ClientenOverzicht_titel {
-    margin-top: 15px;
-}
- h3 {
-  font-size: 20px;
-  font-weight: bold;
-  text-align: left;
-    }
-
 .clientOverzicht_container {
-    margin-top: 80px;
-    margin-right: 80px;
-    margin-left: 450px; 
-    height: 800px;
-    width: 500px;
+ 
 }
 
 .button_clientToevoegen {
     background-color: #7ec6ec;
-    width: 30%;
-    height: 40px;
+    height: auto;
     border: none;
     border-radius: 5px;
     color: white;
@@ -36,39 +14,81 @@ body {
     text-align: center;
     text-decoration: none;
     font-size: 16px;
-    margin-top: 25px;
+    margin-top: 10px;
     cursor: pointer;
 }
 
+.ButtonLine {
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px;
+}
+
+
 .button_clientWijzigen {
+    display: inline-block;
+    padding: 8px 16px;
+    font-size: 14px;
+    line-height: 1.5;
+    border-radius: 4px;
     background-color: orange;
-    width: 30%;
-    height: 40px;
-    border: none;
-    border-radius: 5px;
-    color: white;
-    padding: 5px 10px;
+    color: #fff;
     text-align: center;
-    text-decoration: none;
-    font-size: 16px;
-    margin-top: 25px;
     cursor: pointer;
+    transition: background-color 0.3s;
+    white-space: normal;
+    word-wrap: break-word;
+    word-break: break-word;
+    margin-top: 10px;
+
+
 }
 
 .button_clientVerwijderen {
+    display: inline-block;
+    padding: 8px 16px;
+    font-size: 14px;
+    line-height: 1.5;
+    border-radius: 4px;
     background-color: red;
-    width: 30%;
-    height: 40px;
-    border: none;
-    border-radius: 5px;
-    color: white;
-    padding: 5px 10px;
+    color: #fff;
     text-align: center;
-    text-decoration: none;
-    font-size: 16px;
-    margin-top: 25px;
     cursor: pointer;
+    transition: background-color 0.3s;
+    white-space: normal; 
+    word-wrap: break-word; 
+    word-break: break-word; 
+    margin-top: 10px;
+
 }
+
+
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+    .search-container input {
+        width: 200px;
+        padding: 5px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        margin: 0 5px;
+    }
+
+    .search-container button {
+        padding: 5px 10px;
+        border: none;
+        border-radius: 4px;
+        background-color: #4CAF50;
+        color: white;
+        cursor: pointer;
+        margin: 0 5px;
+    }
 
 .clientOverzicht_card {
     overflow: hidden;
@@ -81,17 +101,24 @@ body {
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    transition: transform 0.3s;
 }
+
+    .clientOverzicht_card:hover {
+        transform: scale(1.1); 
+    }
 
     .clientOverzicht_card img {
         height: 60px;
         width: 60px;
+        margin-right: 20px;
     }
 
-    .clientOverzicht_card .clientOverzicht_card_content {
-        flex-grow: 1;
-        padding: 10px 30px;
-    }
+.clientOverzicht_card_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
     .clientOverzicht_card h2 {
         font-size: 14px;
@@ -105,10 +132,29 @@ body {
         line-height: 1.4;
     }
 
-.ButtonLine {
+.clientOverzicht_card_container {
     display: flex;
-    justify-content: space-between;
-    margin: auto;
+    flex-wrap: wrap;
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 14px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    word-wrap: break-word;
+    margin-bottom: 20px; 
+}
+
+.clientOverzicht_card_container2 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 14px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    word-wrap: break-word;
+    overflow: auto;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
 }
 
 .media-img{
@@ -138,6 +184,27 @@ body {
     text-align: center;
 
 }
+h3 {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    color: grey;
+    background-color: #f2f2f2;
+}
+
+.ClientenOverzicht_titel {
+    background-color: white;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-family: "Open Sans", "Helvetica", "sans-serif";
+    background-color: darkblue;
+}
 
 @media (max-width:1023.98px) {
     .media {
@@ -149,4 +216,6 @@ body {
         width: 100%;
         height: auto;
     }
+
+
 }

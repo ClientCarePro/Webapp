@@ -9,6 +9,12 @@ namespace BlazorCCPro.Client.Shared
 	public partial class ClientenOverzicht
 
 	{
+		private string searchQuery;
+
+		private void Search()
+		{
+			
+		}
 
 		private static List<Clienten> clientens = new List<Clienten>();
 		
