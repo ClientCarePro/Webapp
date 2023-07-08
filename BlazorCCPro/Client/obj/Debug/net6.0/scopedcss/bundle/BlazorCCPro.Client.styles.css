@@ -479,6 +479,7 @@ body[b-1aaqcxse2m] {
 }
 
 
+
 .ClientenOverzicht_titel[b-1aaqcxse2m] {
     background: #ededed;
     width: 100%;
@@ -865,4 +866,8 @@ main[b-p4yqdclwia] {
         /* Never collapse the sidebar for wide screens */
         display: block;
     }
+}
+
+.oi oi-plus[b-jhq99vubdu] {
+
 }

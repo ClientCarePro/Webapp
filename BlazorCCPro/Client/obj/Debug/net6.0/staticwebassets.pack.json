@@ -33,6 +33,14 @@
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
+      "Id": "C:\\Projects\\CCProWebappV2\\BlazorCCPro\\Client\\wwwroot\\css\\font-awesome.css",
+      "PackagePath": "staticwebassets\\css\\font-awesome.css"
+    },
+    {
+      "Id": "C:\\Projects\\CCProWebappV2\\BlazorCCPro\\Client\\wwwroot\\css\\fontawesome\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\css\\fontawesome\\font-awesome.min.css"
+    },
+    {
       "Id": "C:\\Projects\\CCProWebappV2\\BlazorCCPro\\Client\\wwwroot\\css\\open-iconic\\README.md",
       "PackagePath": "staticwebassets\\css\\open-iconic\\README.md"
     },

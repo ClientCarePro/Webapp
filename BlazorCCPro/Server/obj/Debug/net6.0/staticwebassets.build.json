@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "gclCvqcwYfKVb8CMIYGILTLPdENzrAEd0C5rk2j68cY=",
+  "Hash": "nyESAkO+e7VtA9aHrZtd5s1rtdYDwiTjtvocLd90FrY=",
   "Source": "BlazorCCPro.Server",
   "BasePath": "_content/BlazorCCPro.Server",
   "Mode": "Default",
@@ -6980,6 +6980,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Identity": "C:\\Projects\\CCProWebappV2\\BlazorCCPro\\Client\\wwwroot\\css\\font-awesome.css",
+      "SourceId": "BlazorCCPro.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Projects\\CCProWebappV2\\BlazorCCPro\\Client\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "css/font-awesome.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\font-awesome.css"
+    },
+    {
+      "Identity": "C:\\Projects\\CCProWebappV2\\BlazorCCPro\\Client\\wwwroot\\css\\fontawesome\\font-awesome.min.css",
+      "SourceId": "BlazorCCPro.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Projects\\CCProWebappV2\\BlazorCCPro\\Client\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "css/fontawesome/font-awesome.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\fontawesome\\font-awesome.min.css"
     },
     {
       "Identity": "C:\\Projects\\CCProWebappV2\\BlazorCCPro\\Client\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
