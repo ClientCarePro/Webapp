@@ -1788,23 +1788,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Dave\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\gnata\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\TempGitClones2\\Webapp\\BlazorCCPro\\Client\\BlazorCCPro.Client.csproj",
+      "projectUniqueName": "C:\\Projects\\CCProWebappV2\\BlazorCCPro\\Client\\BlazorCCPro.Client.csproj",
       "projectName": "BlazorCCPro.Client",
-      "projectPath": "C:\\TempGitClones2\\Webapp\\BlazorCCPro\\Client\\BlazorCCPro.Client.csproj",
-      "packagesPath": "C:\\Users\\Dave\\.nuget\\packages\\",
-      "outputPath": "C:\\TempGitClones2\\Webapp\\BlazorCCPro\\Client\\obj\\",
+      "projectPath": "C:\\Projects\\CCProWebappV2\\BlazorCCPro\\Client\\BlazorCCPro.Client.csproj",
+      "packagesPath": "C:\\Users\\gnata\\.nuget\\packages\\",
+      "outputPath": "C:\\Projects\\CCProWebappV2\\BlazorCCPro\\Client\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Dave\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\gnata\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1818,8 +1819,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\TempGitClones2\\Webapp\\BlazorCCPro\\Shared\\BlazorCCPro.Shared.csproj": {
-              "projectPath": "C:\\TempGitClones2\\Webapp\\BlazorCCPro\\Shared\\BlazorCCPro.Shared.csproj"
+            "C:\\Projects\\CCProWebappV2\\BlazorCCPro\\Shared\\BlazorCCPro.Shared.csproj": {
+              "projectPath": "C:\\Projects\\CCProWebappV2\\BlazorCCPro\\Shared\\BlazorCCPro.Shared.csproj"
             }
           }
         }
@@ -1855,12 +1856,18 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
+            "version": "[6.0.16, 6.0.16]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {

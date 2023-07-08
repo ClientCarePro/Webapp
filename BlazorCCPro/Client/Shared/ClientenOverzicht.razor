@@ -2,21 +2,20 @@
 @inject HttpClient Http
 
 <body>
-	<div class="ButtonLine">
-		<button class="button_clientToevoegen">Client toevoegen</button>
-			
-	</div>
+	
 
 	@*<div class="search-container">
 		<input type="text" placeholder="Zoek op naam" @bind="searchQuery" />
 		<button @onclick="Search">Zoeken</button>
 	</div>*@
 
-	<h3 class="ClientenOverzicht_titel">Clienten Overzicht</h3>
+	<div class="ClientenOverzicht_titel">
+		<h3 >Clienten Overzicht</h3>
+		<button class="button_clientToevoegen">Client toevoegen</button>
+	</div>
 
 
 
-</body>
 
 <ul class="list-unstyled">
 	@foreach (var clienten in clientens)
@@ -54,7 +53,7 @@
 	}
 </ul>
 
-
+</body>
 
 
 @code {

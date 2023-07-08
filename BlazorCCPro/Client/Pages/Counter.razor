@@ -2,11 +2,6 @@
 
 <PageTitle>Counter</PageTitle>
 
-<h1>Counter</h1>
-
-<p role="status">Current count: @currentCount</p>
-
-<button class="btn btn-primary" @onclick="IncrementCount">Click hier</button>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -461,39 +456,28 @@
 
 <!-- Begin Verklaring van waarheid -->
 <div class="container_vragen_rapportage_waarheidVerklaring">
-                      
-  <div class="row">
-    <div class="col">
-      <p>Ik verklaar dat ik alles naar <strong>waarheid</strong>  heb ingevuld. De bevindingen die ik heb gedaan zijn geconstateerd op basis van mijn eigen indruk</p>
-    </div>
-    <div class="col">
-      <div class="form-check form-check-inline_waarheidVerklaring">
-        <input class="form-check-input" type="radio" name="inlineRadioOptions4" id="inlineRadio1" value="option1">
-        <label class="form-check-label" for="inlineRadio1">Waar</label>
-      </div>
-      <div class="form-check form-check-inline_waarheidVerklaring">
-        <input class="form-check-input" type="radio" name="inlineRadioOptions4" id="inlineRadio2" value="option2">
-        <label class="form-check-label" for="inlineRadio2">Niet waar</label>
-      </div>
-    </div>
-  </div>
+       
+              <div class="form-check form-check-inline_waarheidVerklaring">
+                   <label class="form-check-label" for="inlineRadio1">
+                     <input class="form-check-input" type="radio" name="inlineRadioOptions4" id="inlineRadio1" value="option1">Ik verklaar dat ik alles naar <strong>waarheid</strong>  heb ingevuld. De bevindingen die ik heb gedaan zijn geconstateerd op basis van mijn eigen indruk
+                   </label>
+              </div>
+                
+    
+ 
 </div>
 <!-- End Verklaring van waarheid -->
-
+        
 
 <div class="ButtonLine">
-  <button class="btn_darkBlue">Raportage indienden</button>
-  <button class="btn_orange">Annuleren</button>
   <button class="btn_red">Wissen</button>
+  <button class="btn_orange">Annuleren</button>
+  <button class="btn_darkBlue">Raportage indienden</button>
 </div>
 
-<div class="link_login_loginHelp">
-  <a href="url">Terug naar hoofdmenu</a>
-</div>
+
 
   </div>
-
-
 
 </body>
 </html>

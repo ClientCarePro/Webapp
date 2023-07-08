@@ -9,13 +9,13 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BlazorCCPro.Server
 build_property.RootNamespace = BlazorCCPro.Server
-build_property.ProjectDir = C:\TempGitClones2\Webapp\BlazorCCPro\Server\
+build_property.ProjectDir = C:\Projects\CCProWebappV2\BlazorCCPro\Server\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\TempGitClones2\Webapp\BlazorCCPro\Server
+build_property.MSBuildProjectDirectory = C:\Projects\CCProWebappV2\BlazorCCPro\Server
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/TempGitClones2/Webapp/BlazorCCPro/Server/Pages/Error.cshtml]
+[C:/Projects/CCProWebappV2/BlazorCCPro/Server/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

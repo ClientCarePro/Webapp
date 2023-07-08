@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xHV/p+OJWWy5A3YIukPZNPg2kqdVNwxYjyxikuNrH4xfHEdcD9aS8VEdCfUKt084M/XbA0uUYvbOAQzCCdPMaQ==",
+  "dgSpecHash": "acI7ddPofXbGL9ePDpfqAPE6OGW4CflzFWcu6HS200ENllJsMOeYSHY6PDvQRtW5L3vUEl93RlMLa7pGsviJnQ==",
   "success": true,
-  "projectFilePath": "C:\\TempGitClones2\\Webapp\\BlazorCCPro\\Shared\\BlazorCCPro.Shared.csproj",
+  "projectFilePath": "C:\\Projects\\CCProWebappV2\\BlazorCCPro\\Shared\\BlazorCCPro.Shared.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

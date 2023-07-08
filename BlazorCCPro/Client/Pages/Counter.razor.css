@@ -1,29 +1,35 @@
-﻿body {
-    width: 90%;
-    font-family: "Open Sans", "Helvetica", "sans-serif";
+﻿
+
+body {
+    background-color: #ededed;
 }
 
 /* Begin navbar */
 .Vragen_rapportage_nav {
-    background-color: #d6ebf8;
+    background-color: white;
     padding: 10px 20px;
-    margin: 20px 0px;
+    margin: 10px 0px;
     border-radius: 5px;
+    box-shadow: 0 2px 40px rgba(0, 0, 0, 0.10);
 }
 
     .Vragen_rapportage_nav h3 {
         font-size: 20px;
+        font-weight:bold;
+        letter-spacing: 2px;
+        text-align:center;
     }
 /* End navbar */
 
 /* Begin container */
 .Vragen_rapportage_container {
-    width: 100%;
-    height: 800px;
+    width: 80%;
+    background-color: white;
     margin-right: 50px;
-    margin-left: 50px;
+    margin-left: 150px;
     margin-bottom: 200px;
-    padding: 50px 20px;
+    padding: 30px 20px;
+    border-radius: 10px;
 }
 /* End container */
 
@@ -91,7 +97,7 @@
     margin-left: 20px;
     background-color: #7ec6ec;
     border: none;
-    border-radius: 5px;
+    border-radius: 20px 20px;
     color: white;
     padding: 5px 10px;
     text-align: center;
@@ -194,12 +200,12 @@
 
 
 .btn_blue {
-    width: 100%;
+    width: 50%;
     height: 35px;
-    margin: 5px 0px;
+    margin: 5px 0px 5px 150px;
     background-color: #7ec6ec;
     border: none;
-    border-radius: 5px;
+    border-radius: 20px 20px;
     color: white;
     padding: 5px 10px;
     text-align: center;
@@ -225,48 +231,60 @@
 }
 
 .btn_darkBlue {
-    width: 30%;
+    width: 20%;
     height: 55px;
     margin: 5px 0px;
     background-color: #2b6685;
     border: none;
-    border-radius: 5px;
+    border-radius: 20px 20px;
     color: white;
     padding: 5px 10px;
     text-align: center;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 14px;
     cursor: pointer;
 }
 
-.btn_red {
-    width: 30%;
-    height: 50px;
-    margin: 5px 0px;
-    background-color: rgb(216, 77, 77);
-    border: none;
-    border-radius: 5px;
-    color: white;
-    padding: 5px 10px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
-    cursor: pointer;
-}
+    .btn_darkBlue:hover {
+        background-color: #1861ab;
+    }
 
-.btn_orange {
-    width: 30%;
-    height: 50px;
-    margin: 5px 0px;
-    background-color: rgb(228, 141, 34);
-    border: none;
-    border-radius: 5px;
-    color: white;
-    padding: 5px 10px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
-    cursor: pointer;
+    .btn_red {
+        width: 20%;
+        height: 50px;
+        margin: 5px 0px;
+        background-color: #f5736e;
+        border: none;
+        border-radius: 20px 20px;
+        color: white;
+        padding: 5px 10px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    .btn_red:hover {
+        background-color: #f0160e;
+    }
+
+    .btn_orange {
+        width: 20%;
+        height: 50px;
+        margin: 5px 0px;
+        background-color: #f5c66e;
+        border: none;
+        border-radius: 20px 20px;
+        color: white;
+        padding: 5px 10px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+.btn_orange:hover {
+    background-color: #f7ad00;
 }
 
 .link_login_loginHelp a {
@@ -281,7 +299,7 @@
 .ButtonLine {
     margin-top: 50px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 
