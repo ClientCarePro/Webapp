@@ -4151,3 +4151,4 @@ C:\Projects\CCProWebappV2\BlazorCCPro\Client\obj\Debug\net6.0\BlazorCCPro.Client
 C:\Projects\CCProWebappV2\BlazorCCPro\Client\obj\Debug\net6.0\refint\BlazorCCPro.Client.dll
 C:\Projects\CCProWebappV2\BlazorCCPro\Client\obj\Debug\net6.0\BlazorCCPro.Client.pdb
 C:\Projects\CCProWebappV2\BlazorCCPro\Client\obj\Debug\net6.0\ref\BlazorCCPro.Client.dll
+C:\Projects\CCProWebappV2\BlazorCCPro\Client\obj\Debug\net6.0\scopedcss\Pages\FetchData.razor.rz.scp.css

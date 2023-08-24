@@ -1,11 +1,382 @@
 ﻿
 
+
+/*////////////////////////////////////////////////////////////////////////
+Table of Contents:
+    1. Global Styles
+    2. Typografie
+    3. Areas
+        3.1 Header
+        3.2 Testimonial
+        3.3 Support
+        3.4 Faq
+        3.5 Footer
+////////////////////////////////////////////////////////////////////////*/
+
+/*////////////////////////
+    1. Global Styles
+////////////////////////*/
+
 body {
-    background-color: #ededed;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-/* Begin navbar */
+.outerContainer-questions {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* border: 1px solid red; */
+    width: 80vw;
+    height: 1700px;
+ 
+}
+
+.innerContainer-questions {
+    /* border: 1px solid blue; */
+    background-color: rgb(244, 242, 242);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /*margin: 40px;*/
+ 
+    padding: 20px;
+    width: 80vw;
+    height: 1600px;
+}
+
+.partOne {
+    /* border: 1px solid rebeccapurple; */
+    width: 45%;
+    height: 30px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+.partTwo {
+    /* border: 1px solid red; */
+    width: 10%;
+    height: 30px;
+}
+
+.partThree {
+    /* border: 1px solid orange; */
+    width: 45%;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+/*////////////////////////
+    2. Typography
+////////////////////////*/
+
+body {
+    font-family: Poppins, sans-serif;
+}
+
+/*////////////////////////
+    2. Components
+////////////////////////*/
+
+
+/* Buttons */
+.btn_indienen {
+    width: 120px;
+    height: 30px;
+    margin-left: 20px;
+    background-color: #7ec6ec;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn_blue {
+    width: 80%;
+    height: 30px;
+    /* margin: 5px 0px; */
+    background-color: #7ec6ec;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn_darkBlue {
+    width: 30%;
+    height: 55px;
+    margin: 5px 0px;
+    background-color: #7ec6ec;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn_red {
+    width: 30%;
+    height: 50px;
+    margin: 5px 0px;
+    background-color: rgb(237, 107, 97);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn_orange {
+    width: 30%;
+    height: 50px;
+    margin: 5px 0px;
+    background-color: rgb(230, 195, 94);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+
+/*////////////////////////
+    3. Areas
+///////////////////////*/
+
+
+
+/*///////////// 3.1 Navbar /////////////*/
+
 .Vragen_rapportage_nav {
+    padding: 10px 20px;
+    margin: 20px 0px;
+    border-radius: 5px;
+    /* border: 1px solid rgb(228, 225, 225); */
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+
+/*///////////// 3.2 Questions /////////////*/
+
+
+.wrapper-questions {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.wrapper-questions_noticedinHouse {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 5px;
+}
+
+.wrapper-questionsClient {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 90px;
+    margin-bottom: 5px;
+}
+
+.wrapper-questions_incident {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+.wrapper-questionsFormerAgreements {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom: 5px;
+}
+
+.wrapper-questionsOwnTasks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.wrapper-questions_TruthStatement {
+    /* border: 1px solid rebeccapurple; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    margin-top: 80px;
+    margin-bottom: 5px;
+}
+
+.form-controller {
+    height: 30px;
+    width: 100px;
+    align-content: center;
+    border: 1px solid rgb(228, 225, 225);
+    border-radius: 5px;
+}
+
+.label-houseNumber {
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.form-select {
+    height: 30px;
+    width: 60px;
+    border: 1px solid rgb(228, 225, 225);
+}
+
+
+.form-causeVisit,
+.house {
+    width: 100%;
+    height: 30px;
+    font-size: 16px;
+    border: 1px solid rgb(228, 225, 225);
+    border-radius: 5px;
+}
+
+.form-check-inline_afspraken {
+    margin-left: -25px;
+}
+
+.form-selection_house {
+    width: 40%;
+    height: 30px;
+    font-size: 16px;
+    border: 1px solid rgb(228, 225, 225);
+    border-radius: 5px;
+}
+
+
+.form-DatumAankomst,
+.form-selectArivallTime,
+.form-foundClients,
+.form-activity,
+.form-stateOfHouse,
+.form-select_incidentTwo {
+    width: 100%;
+    height: 30px;
+    font-size: 16px;
+    border: 1px solid rgb(228, 225, 225);
+    border-radius: 5px;
+    color: black;
+}
+
+.form-noticedinHouse {
+    width: 90%;
+    height: 50px;
+    font-size: 16px;
+    border: 1px solid rgb(228, 225, 225);
+    border-radius: 5px;
+    color: black;
+}
+
+.form-controlUnwantedPersons {
+    width: 70%;
+    height: 70px;
+    font-size: 16px;
+    border: 1px solid rgb(228, 225, 225);
+    border-radius: 5px;
+    color: black;
+    padding-left: 20px;
+}
+
+.btn-outline-secondary {
+    color: black;
+    height: 30px;
+}
+
+
+.partOne-noticedinHouse {
+    /* border: 1px solid rebeccapurple; */
+    width: 45%;
+    height: 40px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+.partOne-newDates {
+    /* border: 1px solid rebeccapurple; */
+    width: 45%;
+    height: 60px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+.form-check-label,
+.incidentRadio1 {
+    margin: 0 5px
+}
+
+.input-group_afspraken {
+    width: 400px;
+}
+
+
+.link_login_loginHelp a {
+    color: rgb(135, 133, 133);
+    text-decoration: none;
+    padding-bottom: 50px;
+    font-size: 15px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.ButtonLine {
+    margin-top: 50px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+/*body {
+    background-color: #ededed;
+}*/
+
+/* Begin navbar */
+/*.Vragen_rapportage_nav {
     background-color: white;
     padding: 10px 20px;
     margin: 10px 0px;
@@ -18,11 +389,11 @@ body {
         font-weight:bold;
         letter-spacing: 2px;
         text-align:center;
-    }
+    }*/
 /* End navbar */
 
 /* Begin container */
-.Vragen_rapportage_container {
+/*.Vragen_rapportage_container {
     width: 80%;
     background-color: white;
     margin-right: 50px;
@@ -30,11 +401,11 @@ body {
     margin-bottom: 200px;
     padding: 30px 20px;
     border-radius: 10px;
-}
+}*/
 /* End container */
 
 /* Begin collumn */
-.form-row {
+/*.form-row {
     width: 50%;
     display: flex;
 }
@@ -47,11 +418,11 @@ body {
     .col p {
         margin-bottom: 0;
         padding-top: 5px;
-    }
+    }*/
 /* End collumn */
 
 /* Begin vragen */
-.container_vragen_rapportage_huisnummer p,
+/*.container_vragen_rapportage_huisnummer p,
 .container_vragen_rapportage_woningSelectie p,
 .container_vragen_rapportage_AanleidingBezoek p,
 .container_vragen_rapportage_DatumAankomst p,
@@ -71,12 +442,12 @@ body {
     text-align: left;
     padding-top: 15px;
     margin-left: 15px;
-}
+}*/
 
 /* End Vragen */
 
 /* Begin Huisnummer */
-.Vragen_rapportage_huisnummerBox {
+/*.Vragen_rapportage_huisnummerBox {
     width: 100%;
     height: 35px;
     border-style: solid 1px;
@@ -104,41 +475,41 @@ body {
     text-decoration: none;
     font-size: 16px;
     cursor: pointer;
-}
+}*/
 /* End Huisnummer */
 
 /* Begin WoningSelectie */
 
-.dropdown_login_domain {
+/*.dropdown_login_domain {
     width: 80%;
     height: 35px;
     margin-left: 5px;
-}
+}*/
 /* End WoningSelectie */
 
 /* Begin AanleidingBezoek */
 
-.AanleidingBezoek {
+/*.AanleidingBezoek {
     width: 50%;
     height: 35px;
     margin-left: 5px;
-}
+}*/
 /* End AanleidingBezoek */
 
 /* Begin DatumAankomst */
 
-.DatumAankomst,
+/*.DatumAankomst,
 .TijdAankomst {
     width: 50%;
     height: 35px;
     margin-left: 5px;
-}
+}*/
 
 /* Begin DatumAankomst */
 
 /* Begin Bezigheid client */
 
-.input-group .btn,
+/*.input-group .btn,
 .form-control_Bezigheid {
     width: 100%;
     padding: 0.375rem 2.25rem 0.375rem 0.75rem;
@@ -170,24 +541,24 @@ body {
     background-size: 16px 12px;
     border: var(--bs-border-width) solid var(--bs-border-color);
     border-radius: var(--bs-border-radius);
-}
+}*/
 
 /* End Bezigheid client */
 
 /* Begin text boxen en radio buttons */
-.input-group_Waarneming,
+/*.input-group_Waarneming,
 .form-check-inline_waarneming,
 .input-group_waarneming,
 .form-check-inline_incident,
 .form-group_ongewenst,
 .input-group_afspraken {
     margin-left: 5px;
-}
+}*/
 /* End text boxen en radio buttons */
 
 
 /* Begin Incident voorgevallen */
-.form-select_incident {
+/*.form-select_incident {
     width: 320px;
     padding: 5px;
     font-size: 1rem;
@@ -195,11 +566,11 @@ body {
     line-height: 1.5;
     border: var(--bs-border-width) solid var(--bs-border-color);
     border-radius: var(--bs-border-radius);
-}
+}*/
 /* End Incident voorgevallen */
 
 
-.btn_blue {
+/*.btn_blue {
     width: 50%;
     height: 35px;
     margin: 5px 0px 5px 150px;
@@ -212,17 +583,17 @@ body {
     text-decoration: none;
     font-size: 16px;
     cursor: pointer;
-}
+}*/
 
 
 /* Begin Nieuwe of herhaalde afspraken */
-.input-group_afspraken {
+/*.input-group_afspraken {
     width: 80%;
     margin-left: 0;
-}
+}*/
 /* End Nieuwe of herhaalde afspraken */
 
-.Vragen_rapportage_GenereeRapportage,
+/*.Vragen_rapportage_GenereeRapportage,
 .Vragen_rapportage_RapportageWissen,
 .Vragen_rapportage_RapportageAnnuleren {
     display: flex;
@@ -338,5 +709,5 @@ body {
         width: 100%;
         height: auto;
     }
-}
+}*/
 

@@ -5,13 +5,522 @@
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Vragen Rapportage</title>
-  <link rel="stylesheet" href="style.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+@*  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>*@
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+<!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> -->
+
+
+</head>
+<body>
+
+  <main class="outerContainer-questions">
+
+    <form class="innerContainer-questions">
+      <div class="Vragen_rapportage_nav">
+        <h4>Huisbezoek en Wooncontrole Rapportage</h4>
+      </div>
+
+      <!-- Begin Huisnummer -->
+
+      <section class="wrapper-questions">
+        <div class="partOne">
+          <p>Voer het huisnummer in</p>
+        </div>
+        <div class="partTwo"></div>
+        <div class="partThree">
+
+          <div>
+          <label for="inputAddress" class="label-houseNumber">
+            <input class="form-controller" type="text"  id="inputAddress" placeholder="Huisnummer">
+          </label>
+          </div>
+
+          <div>
+            <button type="button" class="btn_indienen ">Indienden</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- End Huisnummer -->
+
+      <!-- Begin Woning Selectie -->
+
+      <section class="wrapper-questions">
+        <div class="partOne">
+          <p>Selecteer woning</p>
+        </div>
+        <div class="partTwo"></div>
+        <div class="partThree">
+
+
+            <label for="house-selection"></label>
+            <select class="form-selection_house" id="house-selection" required>
+              <option selected disabled value="">Woning selectie</option>
+              <option value="1">woning 1</option>
+              <option value="2">woning 2</option>
+              <option value="3">woning 3</option>
+            </select>
+            <div id="validationServer03Feedback" class="invalid-feedback">
+            </div>
+            </div>
+
+      </section>
+
+
+      <!-- End Woning Selectie -->
+
+
+      <!-- Begin AanleidingBezoek -->
+
+      <section class="wrapper-questions">
+        <div class="partOne">
+          <p>Aanleiding bezoek</p>
+        </div>
+        <div class="partTwo"></div>
+        <div class="partThree">
+          <div>
+          <select class="form-causeVisit" id="validationTooltip04" required>
+            <option selected disabled value="">Kies aanleiding van bezoek</option>
+            <option value="1">Regulier bezoek</option>
+            <option value="2">Telefonische melding ontvangen</option>
+          </select>
+            <div id="validationServer03Feedback" class="invalid-feedback">
+            </div>
+          </div>
+          </div>
+
+      </section>
+
+      <!-- End AanleidingBezoek -->
+
+      <!-- Begin Datum aankomst -->
+
+      <section class="wrapper-questions">
+        <div class="partOne">
+          <p>Datum aankomst</p>
+        </div>
+        <div class="partTwo"></div>
+        <div class="partThree">
+          <div>
+              <select class="form-DatumAankomst" id="validationTooltip04" required>
+                <option selected disabled value="">Kies datum aankomst</option>
+                <option value="1">Datum</option>
+                <option value="2">...</option>
+              </select>
+              <div id="validationServer03Feedback" class="invalid-feedback">
+              </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Eind Datum aankomst -->
+
+      <!-- Begin Tijd aankomst -->
+      <section class="wrapper-questions">
+        <div class="partOne">
+          <p>Tijd aankomst</p>
+        </div>
+        <div class="partTwo"></div>
+        <div class="partThree">
+          <label for="arivallTime">
+            <select class="form-selectArivallTime" id="arivallTime" required>
+              <option selected disabled value="">Kies tijd aankomst</option>
+              <option value="1">Tijd</option>
+              <option value="2">...</option>
+            </select>
+            <div id="validationServer03Feedback" class="invalid-feedback">
+            </div>
+          </label>
+        </div>
+      </section>
+      <!-- Eind Tijd aankomst -->
+
+      <!-- Begin Aangetroffen clienten -->
+      <section class="wrapper-questions">
+        <div class="partOne">
+          <p>Welke clienten zijn aangetroffen in de woning?</p>
+        </div>
+        <div class="partTwo"></div>
+        <div class="partThree">
+          <label for="foundClients">
+            <select class="form-foundClients" id="foundClients" required>
+              <option selected disabled value="">Aangetroffen clienten</option>
+              <option value="1">Client 1</option>
+              <option value="2">Client 2</option>
+              <option value="2">Client 3</option>
+            </select>
+            <div id="validationServer03Feedback" class="invalid-feedback">
+            </div>
+          </label>
+        </div>
+      </section>
+
+      <!-- End Aangetroffen clienten -->
+
+      <!-- Begin Bezigheid Client -->
+        <section class="wrapper-questions">
+          <div class="partOne">
+            <p>Wat was de client aan het doen?</p>
+          </div>
+          <div class="partTwo"></div>
+          <div class="partThree">
+
+            <label for="activity" >
+            <select class="form-activity" id="activity" required>
+              <option selected disabled value="">Bezigheid</option>
+              <option value="1">Aan het slapen</option>
+              <option value="2">Op de bank aangetroffen</option>
+              <option value="2">Keek tv</option>
+              <option value="1">Was spelletjes aan het spelen</option>
+              <option value="2">Was aan het lezen</option>
+              <option value="2">Was aan het ontbijten/lunchen/dineren</option>
+              <option value="1">Was aan het opruimen/schoonmaken</option>
+              <option value="2">Zat op de toilet of in de badkamer</option>
+              <option value="2">Ziek aangetroffen</option>
+              <option value="1">Bewusteloos aangetroffen</option>
+            </select>
+            </label>
+            <input type="text" class="form-control_Bezigheid" aria-label="Text input with dropdown button" placeholder="Anders">
+          </div>
+        </section>
+      <!-- End Bezigheid Client -->
+
+        <!-- Begin Welke staat woning aangetroffen -->
+        <section class="wrapper-questions">
+          <div class="partOne">
+            <p>In welke staat heb je de woning aangetroffen?</p>
+          </div>
+          <div class="partTwo"></div>
+          <div class="partThree">
+            <label for="stateOfHouse">
+              <select class="form-stateOfHouse" id="stateOfHouse" required>
+                <option selected disabled value="">Staat aangetroffen woning</option>
+                <option value="1">Schoon</option>
+                <option value="2">Opgeruimd</option>
+                <option value="2">Rommelig</option>
+                <option value="2">Vies</option>
+              </select>
+              <div id="validationServer03Feedback" class="invalid-feedback">
+              </div>
+            </label>
+          </div>
+        </section>
+        <!-- End Welke staat woning aangetroffen -->
+
+        <!-- Begin Waarneming staat woning -->
+          <section class="wrapper-questions">
+            <div class="partOne">
+              <p>Onderbouw jouw waarneming</p>
+            </div>
+            <div class="partTwo"></div>
+            <div class="partThree">
+              <label for="resumeStateOfHouse">
+                <textarea
+                  name="state"
+                  id="resumeStateOfHouse"
+                  cols="35"
+                  rows="3"
+                  placeholder="Woning zag er opgeruimd uit omdat..."></textarea>
+              </label>
+            </div>
+          </section>
+        <!-- End Waarneming staat woning -->
+
+          <!-- Begin Opgevallen in woning 1 -->
+          <section class="wrapper-questions_noticedinHouse">
+            <div class="partOne-noticedinHouse">
+              <p>Is er verder iets ongewoons opgevallen in de woning?</p>
+            </div>
+            <div class="partTwo"></div>
+            <div class="partThree">
+
+              <div class="form-questionsClient">
+                <div class="form-check form-check-inline_afspraken">
+
+                <div class="form-check form-check-inline_waarneming" id="noticedinHouse">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions0" id="inlineRadio1" value="option1">
+                  <label class="form-check-label" for="inlineRadio1">Ja</label>
+                </div>
+                <div class="form-check form-check-inline_waarneming">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions0" id="inlineRadio2" value="option2">
+                  <label class="form-check-label" for="inlineRadio2">Nee</label>
+                  </div>
+                </div>
+                    </div>
+            </div>
+          </section>
+
+          <!-- End Opgevallen in woning 1 -->
+
+
+          <!-- Begin Opgevallen in woning 2 -->
+          <section class="wrapper-questions">
+            <div class="partOne">
+              <p>Indien ja, omschrijf dit in korte woorden</p>
+            </div>
+            <div class="partTwo"></div>
+            <div class="partThree">
+
+              <textarea
+                class="form-noticedinHouse"
+                aria-label="With textarea"
+                placeholder="Ik rook een wietlucht, stoelen zijn vernield etc."></textarea>
+
+            </div>
+          </section>
+          <!-- End Opgevallen in woning 2 -->
+
+          <!-- Begin Incident voorgevallen 1? -->
+          <section class="wrapper-questions_incident">
+            <div class="partOne">
+              <p>Is er een incident voorgevallen?</p>
+            </div>
+            <div class="partTwo"></div>
+            <div class="partThree">
+
+              <div class="form-questionsClient">
+                <div class="form-check form-check-inline_afspraken">
+
+                <div class="form-check form-check-inline_incident">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="incidentRadio1" value="option1">
+                  <label class="incidentRadio1" for="inlineRadio1">Ja</label>
+                </div>
+                <div class="form-check form-check-inline_incident">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="incidentRadio2" value="option2">
+                  <label class="incidentRadio2" for="inlineRadio2">Nee</label>
+                </div>
+            </div>
+                    </div>
+            </div>
+          </section>
+
+          <!-- End Incident voorgevallen 1? -->
+
+          <!-- Begin Incident voorgevallen 2 -->
+            <section class="wrapper-questions_incident">
+              <div class="partOne">
+                <p>Indien ja, welke client betreft het?</p>
+              </div>
+              <div class="partTwo"></div>
+              <div class="partThree">
+                <label for="incidenttwo">
+                <select class="form-select_incidentTwo" id="incidenttwo" required>
+                  <option selected disabled value="">Welke client?</option>
+                  <option value="1">Client 1</option>
+                  <option value="2">Client 2</option>
+                  <option value="2">Client 3</option>
+                </select>
+                </label>
+                <div id="validationServer03Feedback" class="invalid-feedback">
+                </div>
+
+                <div class="col">
+                  <button type="button" class="btn_indienen ">Verwijderen</button>
+                </div>
+              </div>
+            </section>
+          <!-- End Incident voorgevallen 2 -->
+
+            <!-- Begin Ongewenste personen -->
+              <section class="wrapper-questions">
+                <div class="partOne">
+                  <p>Hoeveel ongewenste personen aanwezig in woning?</p>
+                </div>
+                <div class="partTwo"></div>
+                <div class="partThree">
+                  <div class="col">
+                    <div class="form-group_ongewenst">
+                      <label  for="exampleFormControlSelect2">Kies hoeveel personen
+                      <select multiple class="form-controlUnwantedPersons" id="exampleFormControlSelect2">
+                        <option>0</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                      </select>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            <!-- End Ongewenste personen -->
+
+              <!-- Begin Afspraken client -->
+              <section class="wrapper-questionsClient">
+                <div class="partOne">
+                  <p>Zijn er afspraken met de client gemaakt?</p>
+                </div>
+                <div class="partTwo"></div>
+                <div class="partThree">
+                  <div class="form-questionsClient">
+                    <div class="form-check form-check-inline_afsprakenRadio">
+
+                      <label for="inlineRadioOptions2">Ja, nieuwe afspraken met client gemaakt
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions1" id="inlineRadioOptions2" value="option1">
+                      </label>
+
+
+                    <label for="inlineRadioOptions2.1">Eerder gemaakte afspraak herhaald
+                      <input class="form-check-input" type="radio" name="inlineRadioOptions1" id="inlineRadioOptions2.1" value="option2">
+                      </label>
+
+
+                    <label for="inlineRadioOptions2.2">Nee, geen nieuwe afspraak gemaakt
+                      <input class="form-check-input" type="radio" name="inlineRadioOptions1" id="inlineRadioOptions2.2" value="option3">
+                     </label>
+                        </div>
+                    </div>
+                </div>
+              </section>
+
+              <!-- End Afspraken client -->
+
+              <!-- Begin Voorgaande afspraken-->
+                <section class="wrapper-questionsFormerAgreements">
+                  <div class="partOne-newDates">
+                    <p>Zie voorgaande afspraken</p>
+                  </div>
+                  <div class="partTwo"></div>
+                  <div class="partThree">
+
+                    <button type="button" class="btn_blue" data-toggle="modal" data-target="#exampleModalLong">
+                      Zie voorgaande afspraken
+                    </button>
+
+                  </div>
+                </section>
+              <!-- End Voorgaande afspraken-->
+
+                <!-- Begin Nieuwe of herhaalde afspraken -->
+                <section class="wrapper-questions">
+                  <div class="partOne-newDates">
+                    <p>Vermeld indien er een nieuwe afspraak is gemaakt of een afspraak is herhaald</p>
+                  </div>
+                  <div class="partTwo"></div>
+                  <div class="partThree">
+
+                  <div class="input-group_afspraken">
+                    <textarea class="form-control" aria-label="With textarea"
+                      placeholder="Vermeld tevens het onderwerp van de afspraak"></textarea>
+                  </div>
+
+                  </div>
+                </section>
+                <!-- End Nieuwe of herhaalde afspraken -->
+
+                <!-- Begin Afspraken client -->
+                <section class="wrapper-questions">
+                <div class="partOne">
+                  <p>Is er verdere actie nodig?</p>
+                </div>
+                <div class="partTwo"></div>
+                <div class="partThree">
+
+                  <div class="form-questionsClient">
+                  <div class="form-check form-check-inline_afspraken">
+
+                  <div class="form-check form-check-inline_actie">
+                  <label for="inlineRadio1" class="form-check-label">Ja
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions3" id="inlineRadio1" value="option1">
+                  </label>
+                  </div>
+
+                  <div class="form-check form-check-inline_actie">
+                  <label for="inlineRadio2" class="form-check-label">Nee
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions3" id="inlineRadio2" value="option1">
+                  </label>
+                  </div>
+                  </div>
+                    </div>
+                </div>
+                </section>
+
+                <!-- End Afspraken client -->
+
+                <!-- Begin Uitgevoerde taken -->
+                <section class="wrapper-questionsOwnTasks">
+                  <div class="partOne">
+                    <p>Heb je tijdens het huisbezoek nog andere taken uitgevoerd?</p>
+                  </div>
+                  <div class="partTwo"></div>
+                  <div class="partThree">
+
+                    <div class="col">
+                      <div class="input-group_afspraken">
+                        <textarea class="form-control" aria-label="With textarea"
+                          placeholder="Denk aan... Post bekeken, TV ingelsteld, lamp vervangen enz"></textarea>
+                      </div>
+                    </div>
+
+                  </div>
+                </section>
+
+                <!-- End Uitgevoerde taken -->
+
+                <!-- Begin Verklaring van waarheid -->
+                <section class="wrapper-questions_TruthStatement">
+
+                  <div class="form-check_TruthStatement">
+                    <label for="inlineRadio4">
+                    <input class="form-check-input" type="checkbox" name="inlineRadioOptions4" id="inlineRadio4" value="option1">
+                    Ik verklaar dat ik alles naar <strong>waarheid</strong> heb ingevuld. De bevindingen die ik heb gedaan zijn
+                    geconstateerd op basis van mijn eigen indruk
+                    </label>
+                </div>
+                </section>
+                
+                <!-- End Verklaring van waarheid -->
+
+                <div class="ButtonLine">
+                  <button type="submit" class="btn_darkBlue">Raportage indienden</button>
+                  <button type="button" class="btn_orange">Annuleren</button>
+                  <button type="button" class="btn_red">Wissen</button>
+                </div>
+
+                <div class="link_login_loginHelp">
+                  <a href="url">Terug naar hoofdmenu</a>
+                </div>
+
+    </form>
+  </main>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+@*<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vragen Rapportage</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/bootstrap/all.min.css">
@@ -20,141 +529,136 @@
 
 
 
-<div class="Vragen_rapportage_container">
-  <div class="Vragen_rapportage_nav">
-    <h3>Huisbezoek/Wooncontrole rapportage</h3>
-  </div>
-
-  <!-- Begin Huisnummer -->
-
-<div class="container_vragen_rapportage_huisnummer">
-  <div class="row">
-    <div class="col">
-      <p>Voer het huisnummer in</p>
-    </div>
-    <div class="col">
-      <form class="Vragen_rapportage_huisnummer">
-        <div class="form-row">
-          <div class="col">
-            <input type="text" class="form-control" id="inputAddress" placeholder="huisnr.">
-          </div>
-          <div class="col">
-            <button class="btn_indienen ">Indienden</button>
-          </div>
+    <div class="Vragen_rapportage_container">
+        <div class="Vragen_rapportage_nav">
+            <h3>Huisbezoek en Wooncontrole Rapportage</h3>
         </div>
-      </form>
-    </div>
-  </div>
-</div>
-<!-- End Huisnummer -->
 
-<div class="container_vragen_rapportage_woningSelectie">
-  <div class="row">
-    <div class="col">
-      <p>Selecteer woning</p>
-    </div>
-      <div class="col">
-        <div class="dropdown_login_domain">
-          <select class="form-select" id="validationTooltip04" required>
-            <option selected disabled value="">Woning selectie</option>
-            <option value="1">woning 1</option>
-            <option value="2">woning 2</option>
-            <option value="3">woning 3</option>
-          </select>
-          <div id="validationServer03Feedback" class="invalid-feedback">
-          </div>
+        <!-- Begin Huisnummer -->
+
+        <div class="container_vragen_rapportage_huisnummer">
+            <div class="row">
+                <div class="col">
+                    <p>Voer het huisnummer in</p>
+                </div>
+                <div class="col">
+                    <form class="Vragen_rapportage_huisnummer">
+                        <div class="form-row">
+                            <div class="col">
+                                <input type="text" class="form-control" id="inputAddress" placeholder="huisnr.">
+                            </div>
+                            <div class="col">
+                                <button class="btn_indienen ">Indienden</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  </div>
-<!-- End Woning Selectie -->
+        <!-- End Huisnummer -->
 
-<!-- Begin AanleidingBezoek -->
-<div class="container_vragen_rapportage_AanleidingBezoek">
-  <div class="row">
-    <div class="col">
-      <p>Aanleiding bezoek</p>
-    </div>
-    <div class="col">
-      <div class="dropdown_login_domain AanleidingBezoek">
-        <select class="form-select" id="validationTooltip04" required>
-          <option selected disabled value="">Kies aanleiding van bezoek</option>
-          <option value="1">Regulier bezoek</option>
-          <option value="2">Telefonische melding ontvangen</option>
-        </select>
-        <div id="validationServer03Feedback" class="invalid-feedback">
+        <div class="container_vragen_rapportage_woningSelectie">
+            <div class="row">
+                <div class="col">
+                    <p>Selecteer woning</p>
+                </div>
+                <div class="col">
+                    <div class="dropdown_login_domain">
+                        <select class="form-select" id="validationTooltip04" required>
+                            <option selected disabled value="">Woning selectie</option>
+                            <option value="1">woning 1</option>
+                            <option value="2">woning 2</option>
+                            <option value="3">woning 3</option>
+                        </select>
+                        <div id="validationServer03Feedback" class="invalid-feedback">
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- End AanleidingBezoek -->
-
-<!-- Begin Datum aankomst -->
-<div class="container_vragen_rapportage_DatumAankomst">
-  <div class="row">
-    <div class="col">
-      <p>Datum aankomst</p>
-    </div>
-    <div class="col">
-      <div class="dropdown_login_domain DatumAankomst">
-        <select class="form-select" id="validationTooltip04" required>
-          <option selected disabled value="">Kies datum aankomst</option>
-          <option value="1">Datum</option>
-          <option value="2">...</option>
-        </select>
-        <div id="validationServer03Feedback" class="invalid-feedback">
+        <!-- End Woning Selectie -->
+        <!-- Begin AanleidingBezoek -->
+        <div class="container_vragen_rapportage_AanleidingBezoek">
+            <div class="row">
+                <div class="col">
+                    <p>Aanleiding bezoek</p>
+                </div>
+                <div class="col">
+                    <div class="dropdown_login_domain AanleidingBezoek">
+                        <select class="form-select" id="validationTooltip04" required>
+                            <option selected disabled value="">Kies aanleiding van bezoek</option>
+                            <option value="1">Regulier bezoek</option>
+                            <option value="2">Telefonische melding ontvangen</option>
+                        </select>
+                        <div id="validationServer03Feedback" class="invalid-feedback">
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- End Datum aankomst -->
-
-<!-- Begin Tijd aankomst -->
-<div class="container_vragen_rapportage_TijdAankomst">
-  <div class="row">
-    <div class="col">
-      <p>Tijd aankomst</p>
-    </div>
-    <div class="col">
-      <div class="dropdown_login_domain TijdAankomst">
-        <select class="form-select" id="validationTooltip04" required>
-          <option selected disabled value="">Kies tijd aankomst</option>
-          <option value="1">Tijd</option>
-          <option value="2">...</option>
-        </select>
-        <div id="validationServer03Feedback" class="invalid-feedback">
+        <!-- End AanleidingBezoek -->
+        <!-- Begin Datum aankomst -->
+        <div class="container_vragen_rapportage_DatumAankomst">
+            <div class="row">
+                <div class="col">
+                    <p>Datum aankomst</p>
+                </div>
+                <div class="col">
+                    <div class="dropdown_login_domain DatumAankomst">
+                        <select class="form-select" id="validationTooltip04" required>
+                            <option selected disabled value="">Kies datum aankomst</option>
+                            <option value="1">Datum</option>
+                            <option value="2">...</option>
+                        </select>
+                        <div id="validationServer03Feedback" class="invalid-feedback">
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- End Tijd aankomst -->
-
-<!-- Begin Aangetroffen clienten -->
-<div class="container_vragen_rapportage_AangetroffenClienten">
-  <div class="row">
-    <div class="col">
-      <p>Welke clienten zijn aangetroffen in de woning?</p>
-    </div>
-    <div class="col">
-      <div class="dropdown_login_domain TijdAankomst">
-        <select class="form-select" id="validationTooltip04" required>
-          <option selected disabled value="">Aangetroffen clienten</option>
-          <option value="1">Client 1</option>
-          <option value="2">Client 2</option>
-          <option value="2">Client 3</option>
-        </select>
-        <div id="validationServer03Feedback" class="invalid-feedback">
+        <!-- End Datum aankomst -->
+        <!-- Begin Tijd aankomst -->
+        <div class="container_vragen_rapportage_TijdAankomst">
+            <div class="row">
+                <div class="col">
+                    <p>Tijd aankomst</p>
+                </div>
+                <div class="col">
+                    <div class="dropdown_login_domain TijdAankomst">
+                        <select class="form-select" id="validationTooltip04" required>
+                            <option selected disabled value="">Kies tijd aankomst</option>
+                            <option value="1">Tijd</option>
+                            <option value="2">...</option>
+                        </select>
+                        <div id="validationServer03Feedback" class="invalid-feedback">
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- End Aangetroffen clienten -->
-
-<!-- Begin Bezigheid Client -->
+        <!-- End Tijd aankomst -->
+        <!-- Begin Aangetroffen clienten -->
+        <div class="container_vragen_rapportage_AangetroffenClienten">
+            <div class="row">
+                <div class="col">
+                    <p>Welke clienten zijn aangetroffen in de woning?</p>
+                </div>
+                <div class="col">
+                    <div class="dropdown_login_domain TijdAankomst">
+                        <select class="form-select" id="validationTooltip04" required>
+                            <option selected disabled value="">Aangetroffen clienten</option>
+                            <option value="1">Client 1</option>
+                            <option value="2">Client 2</option>
+                            <option value="2">Client 3</option>
+                        </select>
+                        <div id="validationServer03Feedback" class="invalid-feedback">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Aangetroffen clienten -->
+        <!-- Begin Bezigheid Client -->
         <div class="container_vragen_rapportage_AangetroffenClienten">
             <div class="row">
                 <div class="col">
@@ -185,305 +689,293 @@
                 </div>
             </div>
         </div>
-<!-- End Bezigheid Client  -->
-
-<!-- Begin Welke staat woning aangetroffen -->
-<div class="container_vragen_rapportage_AangetroffenWoning">
-  <div class="row">
-    <div class="col">
-      <p>In welke staat heb je de woning aangetroffen?</p>
-    </div>
-    <div class="col">
-      <div class="dropdown_login_domain WoningAangetroffen">
-        <select class="form-select" id="validationTooltip04" required>
-          <option selected disabled value="">Staat aangetroffen woning</option>
-          <option value="1">Schoon</option>
-          <option value="2">Opgeruimd</option>
-          <option value="2">Rommelig</option>
-          <option value="2">Vies</option>
-        </select>
-        <div id="validationServer03Feedback" class="invalid-feedback">
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- End Welke staat aangetroffen -->
-
-<!-- Begin Waarneming staat woning -->
-<div class="container_vragen_rapportage_Waarneming">
-  <div class="row">
-    <div class="col">
-      <p>Onderbouw jouw waarneming</p>
-    </div>
-    <div class="col">
-      <div class="input-group_Waarneming">
-        <textarea class="form-control" aria-label="With textarea" placeholder="Woning zag er opgeruimd uit omdat..."></textarea>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- End Waarneming staat woning  -->
-
-<!-- Begin Opgevallen in woning 1 -->
-<div class="container_vragen_rapportage_Waarneming">
-  <div class="row">
-    <div class="col">
-      <p>Is er verder iets ongewoons opgevallen in de woning?</p>
-    </div>
-    <div class="col">
-      <div class="form-check form-check-inline_waarneming">
-        <input class="form-check-input" type="radio" name="inlineRadioOptions0" id="inlineRadio1" value="option1">
-        <label class="form-check-label" for="inlineRadio1">Ja</label>
-      </div>
-      <div class="form-check form-check-inline_waarneming">
-        <input class="form-check-input" type="radio" name="inlineRadioOptions0" id="inlineRadio2" value="option2">
-        <label class="form-check-label" for="inlineRadio2">Nee</label>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- End Opgevallen in woning 1 -->
-
-<!-- Begin Opgevallen in woning 2 -->
-<div class="container_vragen_rapportage_Waarneming">
-  <div class="row">
-    <div class="col">
-      <p>Indien ja, omschrijf dit in korte woorden</p>
-    </div>
-    <div class="col">
-      <div class="input-group_waarneming">
-        <textarea class="form-control" aria-label="With textarea"
-          placeholder="Ik rook een wietlucht, stoelen zijn vernield etc."></textarea>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- End Opgevallen in woning 2 -->
-
-<!-- Begin Incident voorgevallen 1? -->
-<div class="container_vragen_rapportage_IncidentVoorgevallen">
-  <div class="row">
-    <div class="col">
-      <p>Is er een incident voorgevallen?</p>
-    </div>
-    <div class="col">
-      <div class="form-check form-check-inline_incident">
-        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-        <label class="form-check-label" for="inlineRadio1">Ja</label>
-      </div>
-      <div class="form-check form-check-inline_incident">
-        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-        <label class="form-check-label" for="inlineRadio2">Nee</label>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- End Incident voorgevallen 1 ? -->
-
-  <!-- Begin Incident voorgevallen 2 -->
-  <div class="container_vragen_rapportage_IncidentVoorgevallenJa">
-    <div class="row">
-      <div class="col">
-        <p>Indien ja, welke client betreft het?</p>
-      </div>
-      <div class="col">
-        <form class="Vragen_rapportage_IncidentVoorgevallenJa">
-          <div class="form-row">
-            <div class="col">
-              <div class="dropdown_login_domain IncidentVoorgevallenJa">
-                <select class="form-select_incident" id="validationTooltip04" required>
-                  <option selected disabled value="">Welke client?</option>
-                  <option value="1">Client 1</option>
-                  <option value="2">Client 2</option>
-                  <option value="2">Client 3</option>
-                </select>
-                <div id="validationServer03Feedback" class="invalid-feedback">
+        <!-- End Bezigheid Client  -->
+        <!-- Begin Welke staat woning aangetroffen -->
+        <div class="container_vragen_rapportage_AangetroffenWoning">
+            <div class="row">
+                <div class="col">
+                    <p>In welke staat heb je de woning aangetroffen?</p>
                 </div>
-              </div>
+                <div class="col">
+                    <div class="dropdown_login_domain WoningAangetroffen">
+                        <select class="form-select" id="validationTooltip04" required>
+                            <option selected disabled value="">Staat aangetroffen woning</option>
+                            <option value="1">Schoon</option>
+                            <option value="2">Opgeruimd</option>
+                            <option value="2">Rommelig</option>
+                            <option value="2">Vies</option>
+                        </select>
+                        <div id="validationServer03Feedback" class="invalid-feedback">
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col">
-              <button class="btn_indienen ">Verwijderen</button>
-            </div>
-          </div>
-        </form>
-      </div>
-    </div>
-  </div>
-  <!-- End Incident voorgevallen 2 -->
-
-<!-- Begin Ongewenste personen -->
-<div class="container_vragen_rapportage_OngewenstePersonen">
-  <div class="row">
-    <div class="col">
-      <p>Hoeveel ongewenste personen aanwezig in woning?</p>
-    </div>
-    <div class="col">
-        <div class="form-group_ongewenst">
-          <label for="exampleFormControlSelect2">Kies hoeveel personen</label>
-          <select multiple class="form-control" id="exampleFormControlSelect2">
-            <option>0</option>
-            <option>1</option>
-            <option>2</option>
-            <option>3</option>
-            <option>4</option>
-            <option>5</option>
-            <option>6</option>
-            <option>7</option>
-            <option>8</option>
-            <option>9</option>
-            <option>10</option>
-          </select>
         </div>
-    </div>
-  </div>
-</div>
-<!-- End Ongewenste personen -->
-
-<!-- Begin Afspraken client -->
-<div class="container_vragen_rapportage_AfsprakenClient">
-  <div class="row">
-    <div class="col">
-      <p>Zijn er afspraken met de client gemaakt?</p>
-    </div>
-    <div class="col">
-      <div class="form-check form-check-inline_afspraken">
-        <input class="form-check-input" type="radio" name="inlineRadioOptions2" id="inlineRadio1" value="option1">
-        <label class="form-check-label" for="inlineRadio1">Ja, nieuwe afspraken met client gemaakt</label>
-      </div>
-      <div class="form-check form-check-inline_afspraken">
-        <input class="form-check-input" type="radio" name="inlineRadioOptions2" id="inlineRadio2" value="option2">
-        <label class="form-check-label" for="inlineRadio2">Eerder gemaakte afspraak herhaald</label>
-      </div>
-      <div class="form-check form-check-inline_afspraken">
-        <input class="form-check-input" type="radio" name="inlineRadioOptions2" id="inlineRadio3" value="option3">
-        <label class="form-check-label" for="inlineRadio3">Nee, geen nieuwe afspraak gemaakt</label>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- End Afspraken client -->
-
-<!-- Begin Voorgaande afspraken-->
-<div class="container_vragen_rapportage_VoorgaandeAfspraken">
-  <div class="row">
-    <div class="col">
-      <p>Zie voorgaande afspraken</p>
-    </div>
-    <div class="col">
-      <!-- Button trigger modal -->
-      <button type="button" class="btn_blue" data-toggle="modal" data-target="#exampleModalLong">
-        Zie voorgaande afspraken
-      </button>
-
-      <!-- Modal -->
-      <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
-        aria-hidden="true">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
+        <!-- End Welke staat aangetroffen -->
+        <!-- Begin Waarneming staat woning -->
+        <div class="container_vragen_rapportage_Waarneming">
+            <div class="row">
+                <div class="col">
+                    <p>Onderbouw jouw waarneming</p>
+                </div>
+                <div class="col">
+                    <div class="input-group_Waarneming">
+                        <textarea class="form-control" aria-label="With textarea" placeholder="Woning zag er opgeruimd uit omdat..."></textarea>
+                    </div>
+                </div>
             </div>
-            <div class="modal-body">
-              ...
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Save changes</button>
-            </div>
-          </div>
         </div>
-      </div>
+        <!-- End Waarneming staat woning  -->
+        <!-- Begin Opgevallen in woning 1 -->
+        <div class="container_vragen_rapportage_Waarneming">
+            <div class="row">
+                <div class="col">
+                    <p>Is er verder iets ongewoons opgevallen in de woning?</p>
+                </div>
+                <div class="col">
+                    <div class="form-check form-check-inline_waarneming">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions0" id="inlineRadio1" value="option1">
+                        <label class="form-check-label" for="inlineRadio1">Ja</label>
+                    </div>
+                    <div class="form-check form-check-inline_waarneming">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions0" id="inlineRadio2" value="option2">
+                        <label class="form-check-label" for="inlineRadio2">Nee</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Opgevallen in woning 1 -->
+        <!-- Begin Opgevallen in woning 2 -->
+        <div class="container_vragen_rapportage_Waarneming">
+            <div class="row">
+                <div class="col">
+                    <p>Indien ja, omschrijf dit in korte woorden</p>
+                </div>
+                <div class="col">
+                    <div class="input-group_waarneming">
+                        <textarea class="form-control" aria-label="With textarea"
+                                  placeholder="Ik rook een wietlucht, stoelen zijn vernield etc."></textarea>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Opgevallen in woning 2 -->
+        <!-- Begin Incident voorgevallen 1? -->
+        <div class="container_vragen_rapportage_IncidentVoorgevallen">
+            <div class="row">
+                <div class="col">
+                    <p>Is er een incident voorgevallen?</p>
+                </div>
+                <div class="col">
+                    <div class="form-check form-check-inline_incident">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                        <label class="form-check-label" for="inlineRadio1">Ja</label>
+                    </div>
+                    <div class="form-check form-check-inline_incident">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                        <label class="form-check-label" for="inlineRadio2">Nee</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Incident voorgevallen 1 ? -->
+        <!-- Begin Incident voorgevallen 2 -->
+        <div class="container_vragen_rapportage_IncidentVoorgevallenJa">
+            <div class="row">
+                <div class="col">
+                    <p>Indien ja, welke client betreft het?</p>
+                </div>
+                <div class="col">
+                    <form class="Vragen_rapportage_IncidentVoorgevallenJa">
+                        <div class="form-row">
+                            <div class="col">
+                                <div class="dropdown_login_domain IncidentVoorgevallenJa">
+                                    <select class="form-select_incident" id="validationTooltip04" required>
+                                        <option selected disabled value="">Welke client?</option>
+                                        <option value="1">Client 1</option>
+                                        <option value="2">Client 2</option>
+                                        <option value="2">Client 3</option>
+                                    </select>
+                                    <div id="validationServer03Feedback" class="invalid-feedback">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <button class="btn_indienen ">Verwijderen</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- End Incident voorgevallen 2 -->
+        <!-- Begin Ongewenste personen -->
+        <div class="container_vragen_rapportage_OngewenstePersonen">
+            <div class="row">
+                <div class="col">
+                    <p>Hoeveel ongewenste personen aanwezig in woning?</p>
+                </div>
+                <div class="col">
+                    <div class="form-group_ongewenst">
+                        <label for="exampleFormControlSelect2">Kies hoeveel personen</label>
+                        <select multiple class="form-control" id="exampleFormControlSelect2">
+                            <option>0</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>6</option>
+                            <option>7</option>
+                            <option>8</option>
+                            <option>9</option>
+                            <option>10</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Ongewenste personen -->
+        <!-- Begin Afspraken client -->
+        <div class="container_vragen_rapportage_AfsprakenClient">
+            <div class="row">
+                <div class="col">
+                    <p>Zijn er afspraken met de client gemaakt?</p>
+                </div>
+                <div class="col">
+                    <div class="form-check form-check-inline_afspraken">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions2" id="inlineRadio1" value="option1">
+                        <label class="form-check-label" for="inlineRadio1">Ja, nieuwe afspraken met client gemaakt</label>
+                    </div>
+                    <div class="form-check form-check-inline_afspraken">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions2" id="inlineRadio2" value="option2">
+                        <label class="form-check-label" for="inlineRadio2">Eerder gemaakte afspraak herhaald</label>
+                    </div>
+                    <div class="form-check form-check-inline_afspraken">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions2" id="inlineRadio3" value="option3">
+                        <label class="form-check-label" for="inlineRadio3">Nee, geen nieuwe afspraak gemaakt</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Afspraken client -->
+        <!-- Begin Voorgaande afspraken-->
+        <div class="container_vragen_rapportage_VoorgaandeAfspraken">
+            <div class="row">
+                <div class="col">
+                    <p>Zie voorgaande afspraken</p>
+                </div>
+                <div class="col">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn_blue" data-toggle="modal" data-target="#exampleModalLong">
+                        Zie voorgaande afspraken
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+                         aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    ...
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Voorgaande afspraken -->
+        <!-- Begin Nieuwe of herhaalde afspraken -->
+        <div class="container_vragen_rapportage_Afspraken">
+            <div class="row">
+                <div class="col">
+                    <p>Vermeld indien er een nieuwe afspraak is gemaakt of een afspraak is herhaald</p>
+                </div>
+                <div class="col">
+                    <div class="input-group_afspraken">
+                        <textarea class="form-control" aria-label="With textarea"
+                                  placeholder="Vermeld tevens het onderwerp van de afspraak"></textarea>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Nieuwe of herhaalde afspraken  -->
+        <!-- Begin Afspraken client -->
+        <div class="container_vragen_rapportage_Actie">
+            <div class="row">
+                <div class="col">
+                    <p>Is er verdere actie nodig?</p>
+                </div>
+                <div class="col">
+                    <div class="form-check form-check-inline_actie">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions3" id="inlineRadio1" value="option1">
+                        <label class="form-check-label" for="inlineRadio1">Ja, verdere actie is nodig</label>
+                    </div>
+                    <div class="form-check form-check-inline_actie">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions3" id="inlineRadio2" value="option2">
+                        <label class="form-check-label" for="inlineRadio2">Nee, geen verdere actie is nodig</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Afspraken client -->
+        <!-- Begin Uitgevoerde taken -->
+        <div class="container_vragen_rapportage_Afspraken">
+            <div class="row">
+                <div class="col">
+                    <p>Heb je tijdens het huisbezoek nog andere taken uitgevoerd?</p>
+                </div>
+                <div class="col">
+                    <div class="input-group_afspraken">
+                        <textarea class="form-control" aria-label="With textarea"
+                                  placeholder="Denk aan... Post bekeken, TV ingelsteld, lamp vervangen enz"></textarea>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Uitgevoerde taken  -->
+        <!-- Begin Verklaring van waarheid -->
+        <div class="container_vragen_rapportage_waarheidVerklaring">
+
+            <div class="form-check form-check-inline_waarheidVerklaring">
+                <label class="form-check-label" for="inlineRadio1">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions4" id="inlineRadio1" value="option1">Ik verklaar dat ik alles naar <strong>waarheid</strong>  heb ingevuld. De bevindingen die ik heb gedaan zijn geconstateerd op basis van mijn eigen indruk
+                </label>
+            </div>
+
+
+
+        </div>
+        <!-- End Verklaring van waarheid -->
+
+
+        <div class="ButtonLine">
+            <button class="btn_red">Wissen</button>
+            <button class="btn_orange">Annuleren</button>
+            <button class="btn_darkBlue">Raportage indienden</button>
+        </div>
+
+
+
     </div>
-  </div>
-</div>
-<!-- End Voorgaande afspraken -->
-
-<!-- Begin Nieuwe of herhaalde afspraken -->
-<div class="container_vragen_rapportage_Afspraken">
-  <div class="row">
-    <div class="col">
-      <p>Vermeld indien er een nieuwe afspraak is gemaakt of een afspraak is herhaald</p>
-    </div>
-    <div class="col">
-      <div class="input-group_afspraken">
-        <textarea class="form-control" aria-label="With textarea"
-          placeholder="Vermeld tevens het onderwerp van de afspraak"></textarea>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- End Nieuwe of herhaalde afspraken  -->
-
-<!-- Begin Afspraken client -->
-<div class="container_vragen_rapportage_Actie">
-  <div class="row">
-    <div class="col">
-      <p>Is er verdere actie nodig?</p>
-    </div>
-    <div class="col">
-      <div class="form-check form-check-inline_actie">
-        <input class="form-check-input" type="radio" name="inlineRadioOptions3" id="inlineRadio1" value="option1">
-        <label class="form-check-label" for="inlineRadio1">Ja, verdere actie is nodig</label>
-      </div>
-      <div class="form-check form-check-inline_actie">
-        <input class="form-check-input" type="radio" name="inlineRadioOptions3" id="inlineRadio2" value="option2">
-        <label class="form-check-label" for="inlineRadio2">Nee, geen verdere actie is nodig</label>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- End Afspraken client -->
-
-<!-- Begin Uitgevoerde taken -->
-<div class="container_vragen_rapportage_Afspraken">
-  <div class="row">
-    <div class="col">
-      <p>Heb je tijdens het huisbezoek nog andere taken uitgevoerd?</p>
-    </div>
-    <div class="col">
-      <div class="input-group_afspraken">
-        <textarea class="form-control" aria-label="With textarea"
-          placeholder="Denk aan... Post bekeken, TV ingelsteld, lamp vervangen enz"></textarea>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- End Uitgevoerde taken  -->
-
-<!-- Begin Verklaring van waarheid -->
-<div class="container_vragen_rapportage_waarheidVerklaring">
-       
-              <div class="form-check form-check-inline_waarheidVerklaring">
-                   <label class="form-check-label" for="inlineRadio1">
-                     <input class="form-check-input" type="radio" name="inlineRadioOptions4" id="inlineRadio1" value="option1">Ik verklaar dat ik alles naar <strong>waarheid</strong>  heb ingevuld. De bevindingen die ik heb gedaan zijn geconstateerd op basis van mijn eigen indruk
-                   </label>
-              </div>
-                
-    
- 
-</div>
-<!-- End Verklaring van waarheid -->
-        
-
-<div class="ButtonLine">
-  <button class="btn_red">Wissen</button>
-  <button class="btn_orange">Annuleren</button>
-  <button class="btn_darkBlue">Raportage indienden</button>
-</div>
-
-
-
-  </div>
 
 </body>
 </html>
 
 
 
+*@
 
 
 

@@ -3,24 +3,75 @@
 
 <body>
 	
-
-	@*<div class="search-container">
-		<input type="text" placeholder="Zoek op naam" @bind="searchQuery" />
-		<button @onclick="Search">Zoeken</button>
-	</div>*@
-
-	<div class="ClientenOverzicht_titel">
+	@*<div class="ClientenOverzicht_titel">
 		<h3 >Clienten Overzicht</h3>
 		<button class="button_clientToevoegen">Client toevoegen</button>
-	</div>
+	</div>*@
 
+	<main>
+	<div class="card-overall">
+<div class="card-wrapper">
+<section class="outer-container-card">
+    <article class="inner-container-card">
+      <div class="card-text">
+      <h3>Woning A</h3>
+      <p>Brinkweg 91, 1221 RN Hilversum</p>
+      </div>
+      <div class="card-img">
+		<img class="card-img-profile" src="/ClientenOverzicht-img/profile-icon.png" alt="">
+      </div>
+    </article>
+  <div class="card-button-wrapper">
+    <button class="button-card" type="button">Meer info</button>
+  </div>
+</section>
+</div>
+
+<div class="card-wrapper">
+<section class="outer-container-card">
+    <article class="inner-container-card">
+      <div class="card-text">
+      <h3>Woning B</h3>
+      <p>Brinkweg 91, 1221 RN Hilversum</p>
+      </div>
+      <div class="card-img">
+		<img class="card-img-profile" src="/ClientenOverzicht-img/profile-icon.png" alt="">
+      </div>
+    </article>
+  <div class="card-button-wrapper">
+    <button class="button-card" type="button">Meer info</button>
+  </div>
+</section>
+
+</div>
+
+<div class="card-wrapper">
+  <section class="outer-container-card">
+    <article class="inner-container-card">
+      <div class="card-text">
+        <h3>Woning C</h3>
+        <p>Brinkweg 91, 1221 RN Hilversum</p>
+      </div>
+      <div class="card-img">
+		<img class="card-img-profile" src="/ClientenOverzicht-img/profile-icon.png" alt="">
+      </div>
+    </article>
+    <div class="card-button-wrapper">
+      <button class="button-card" type="button">Meer info</button>
+    </div>
+  </section>
+</div>
+</div>
+</main>
+
+    
 
 
 
 <ul class="list-unstyled">
 	@foreach (var clienten in clientens)
 	{
-		<li class="media my-3">
+		@*<li class="media my-3">
 			
 			<div class="media-body">
 			 <div class="clientOverzicht_card_container2">
@@ -49,7 +100,7 @@
 		</div>
 				
 			</div>
-		</li>
+		</li>*@
 	}
 </ul>
 
